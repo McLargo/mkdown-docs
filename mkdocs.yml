@@ -10,4 +10,5 @@ theme:
     - yaml
 
 nav:
-  - About: index.md
+  - Index: index.md
+  - About: about.md
