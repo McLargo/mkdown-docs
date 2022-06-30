@@ -1,0 +1,13 @@
+site_name: My documentation
+site_url: https://mclargo.github.io
+site_author: Javier Gil
+site_description: My useful documentation
+
+theme:
+  name: mkdocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+nav:
+  - About: index.md
