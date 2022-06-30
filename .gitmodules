@@ -1,0 +1,4 @@
+[submodule "mclargo.github.io"]
+	path = mclargo.github.io
+	url = git@github.com:McLargo/mclargo.github.io.git
+	branch = master
