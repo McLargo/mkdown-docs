@@ -2,14 +2,11 @@
 
 You can install `mkdocs` locally via pip: `pip install mkdocs`
 
-In my case, I installed with `poetry`
+In my case, I installed with `poetry`. First time, execute: `poetry init`
 
+After initialize the project, run to enter the virtualenv: `poetry shell`
 
-First time, run: `poetry init`
-
-After initalizate the project, run: `poetry shell`
-
-To add new package, run: `poetry add mkdocs`
+To add new mdkocs as a dependency, run: `poetry add mkdocs`
 
 Commands to use on mkdocs are:
 ```bash
@@ -25,5 +22,5 @@ Deploy mkdocs to github pages, from submodule folder:
 
 ## Reference
 
+[mkdocs](https://www.mkdocs.org/)
 [Publishing mkdown docs on github pages](https://dev.to/ar2pi/publish-your-markdown-docs-on-github-pages-6pe)
-
