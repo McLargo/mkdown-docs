@@ -6,9 +6,27 @@ site_description: My useful documentation
 theme:
   name: mkdocs
   highlightjs: true
+  use_directory_urls: true
   hljs_languages:
     - yaml
 
 nav:
-  - Index: index.md
-  - About: about.md
+  - DevOps:
+    - Features Toggles: devops/features-toggles.md
+    - Serverless Computing: devops/serverless.md
+  - Programming:
+    - Python: programming/python.md
+    - Django: programming/django.md
+    - Virtualenvs: programming/virtualenvs.md
+  - Project Management:
+    - Architecture Decision Records: project-management/architecture-decision-record.md
+    - C4 Model: project-management/c4-model.md
+    - Technical Leader: project-management/tech-lead.md
+    - Waterfall Methodoloy: project-management/serverless-methodology.md
+  - Utils:
+    - Databases: utils/databases.md
+    - Daemon: utils/daemon.md
+    - Developing an API: utils/developing-api.md
+    - Regex: utils/regex.md
+    - Supervisor: utils/supervisor.md
+    - Transmission: utils/transmission.md

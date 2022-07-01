@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+# Welcome toMy documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## TODO table of contents?
 
-## Commands
+It's hard to keep up updated
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Main groups instead??
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## explain how to organize. where to find things, where to add things....
