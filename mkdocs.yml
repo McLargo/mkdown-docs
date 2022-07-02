@@ -22,11 +22,12 @@ nav:
     - Architecture Decision Records: project-management/architecture-decision-record.md
     - C4 Model: project-management/c4-model.md
     - Technical Leader: project-management/tech-lead.md
-    - Waterfall Methodoloy: project-management/serverless-methodology.md
+    - Waterfall Methodoloy: project-management/waterfall-methodology.md
   - Utils:
-    - Databases: utils/databases.md
     - Daemon: utils/daemon.md
+    - Databases: utils/databases.md
     - Developing an API: utils/developing-api.md
     - Regex: utils/regex.md
     - Supervisor: utils/supervisor.md
     - Transmission: utils/transmission.md
+  - Template: template.md
