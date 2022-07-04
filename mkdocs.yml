@@ -13,10 +13,12 @@ theme:
 nav:
   - DevOps:
     - Features Toggles: devops/features-toggles.md
+    - Kubernetes: devops/k8s.md
     - Serverless Computing: devops/serverless.md
   - Programming:
     - Python: programming/python.md
     - Django: programming/django.md
+    - Open API: programming/openapi.md
     - Virtualenvs: programming/virtualenvs.md
   - Project Management:
     - Architecture Decision Records: project-management/architecture-decision-record.md
