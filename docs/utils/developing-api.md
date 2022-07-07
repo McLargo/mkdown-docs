@@ -12,8 +12,13 @@ Briefly description of what should be consider when developing an API, some good
 GET ALL
 `api/<resources>`
 
+HTTP status code 200 OK for a successful GET of resource, or empty results.
+
 GET BY ID
 `api/<resources>/<id>`
+
+HTTP status code 200 OK for a successful GET of resource.
+HTTP status code 404 KO for a KO GET of a not found resource.
 
 POST
 `api/<resources>`
@@ -34,15 +39,18 @@ in the response body that explains why the PUT failed. (RFC 2616 Section 10.4)
 
 ## HTTP Status Code
 
-[comment]: <> (TODO)
+* 2XX -> success codes range
+* 3XX -> redirect codes range
+* 4XX -> client error codes range
+* 5XX -> server error codes range
+
+[More details](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
 ## Secrets
 
 Never store unencrypted secrets in `.git` repositories. If a secret enters a repository, private or public, then it should be considered compromised.
 
-**Add sensitive files in `.gitignore`**
-
-[comment]: <> (TODO find a .gitignore python template)
+**Add sensitive files in [.gitignore](https://github.com/github/gitignore/blob/main/Python.gitignore)**
 
 Store secrets safely. Encrypting your secrets using common tools, such as git secret. Storing them within a git repository can be beneficial when working in teams as it keeps secrets synced.
 
