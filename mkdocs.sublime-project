@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": ["mclargo.github.io", ".git", "site"],
+		}
+	]
+}
