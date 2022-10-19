@@ -1,7 +1,7 @@
-site_name: My documentation
+site_name: My technical wiki
 site_url: https://mclargo.github.io
 site_author: Javier Gil
-site_description: My useful documentation
+site_description: Mix of features, good practices, tools and utils useful in my professional environment
 
 theme:
   name: mkdocs
@@ -23,6 +23,7 @@ nav:
   - Project Management:
     - Architecture Decision Records: project-management/architecture-decision-record.md
     - C4 Model: project-management/c4-model.md
+    - SCRUM: project-management/scrum.md
     - Technical Leader: project-management/tech-lead.md
     - Waterfall Methodoloy: project-management/waterfall-methodology.md
   - Utils:
@@ -32,4 +33,5 @@ nav:
     - Regex: utils/regex.md
     - Supervisor: utils/supervisor.md
     - Transmission: utils/transmission.md
+    - Working environment: utils/working-environment.md
   - Template: template.md

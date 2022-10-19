@@ -11,6 +11,14 @@ Interact with other tech leads, sharing information and good practices.
 - Provide design direction. Follow SOLID principles
 - Good pull request practices
 
+## Motivation
+
+- From external party working with a client, we are the providers, the ones that gives the solution.
+- Objective of a ticket is to give value to the product, not just close tickets.
+- Adapt our work methodology.
+- Client can guide, give us rules. But our work is our project. And needs to be the best possible.
+- We as external need to be lead
+
 ## Good practices
 
 - TODO: Redact a generic definition of DONE
