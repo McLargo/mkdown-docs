@@ -26,6 +26,7 @@ nav:
     - SCRUM: project-management/scrum.md
     - Technical Leader: project-management/tech-lead.md
     - Waterfall Methodoloy: project-management/waterfall-methodology.md
+    - Work Remotely: project-management/work-remotely.md
   - Utils:
     - Daemon: utils/daemon.md
     - Databases: utils/databases.md
