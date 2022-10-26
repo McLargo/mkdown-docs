@@ -19,6 +19,7 @@ Deploy mkdocs to github pages, from submodule folder:
 
 `mkdocs gh-deploy --config-file ../mkdocs.yml --remote-branch master`
 
+`make` commands available for easy usage of the tool. Run `make` or `make help` for extra support.
 
 ## Reference
 

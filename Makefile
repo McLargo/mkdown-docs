@@ -2,16 +2,17 @@
 
 default: help
 
-all: serve build
+all: build serve  ## Executes build and serve together
 
-h help:
-	@grep '^[a-z]' Makefile
+help: ## Show help
+	@echo "\nUsage: \e[1;36mmake [target]\e[0m\n"
+	@egrep -h '\s##\s' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf " -\033[36m  %-20s\033[0m %s\n", $$1, $$2}'
 
-s serve:
-	mkdocs serve --strict
+serve: ## Serve mkdocs in local
+	poetry run mkdocs serve --strict
 
-b build:
-	mkdocs build --strict
+build: ## Build mkdocs in local
+	poetry run mkdocs build --strict
 
-d deploy:
-	cd mclargo.github.io; mkdocs gh-deploy --config-file ../mkdocs.yml --remote-branch master
+deploy: ## Deploy mkdocs to gihub pages
+	cd mclargo.github.io; poetry run mkdocs gh-deploy --config-file ../mkdocs.yml --remote-branch master
