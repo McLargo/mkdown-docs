@@ -15,7 +15,7 @@ Grouped in different categories:
 
 With time and more documents covered, relation between them will be enriched. It shouldn't be a just isolated documents, but more of a wiki to cover my professional philosophy and understanding on technical topics.
 
-Using [markdown](https://gist.github.com/McLargo/44c180a217f1d6c05aeff43bec82ceaa) to make it easier to build new documents from IDE. [Template sample available](template).
+Using [markdown](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c#file-markdown-cheatsheet) to make it easier to build new documents from IDE. [Template sample available for this wiki](template).
 
 [Mkdocs](https://www.mkdocs.org/) as site generator for my documentation. Includes nice features as search, customizable layout and easy deployment to github pages, making it 100% online.
 
@@ -23,7 +23,7 @@ Repo that generate this website, can be found in my github.
 
 ## What you cannot find in here
 
-- cheatsheets, they belong to [gists](https://gist.github.com/McLargo). It enables quicker updates
+- cheatsheets, they belong to [gists](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c). It enables quicker updates
 - code, that belongs to [github](https://github.com/McLargo/). Either private/public repo
 - books or manuals
 - mentoring assets

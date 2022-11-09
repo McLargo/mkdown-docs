@@ -31,6 +31,14 @@ Other concepts:
 - rback
 -namespaces
 
+## Local k8s cluster
+
+minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows. Easy to install and start working.
+
+Install and run minikube to have a local cluster for k8s in local. If minikube is running, automatically context/namespace is updated to use then one's from minikube. If you are working with other k8s cluster, keep in mind this change. Always doble-check for namespace or context before deploying to the cluster. To work with cluster outside local, either you stop minikube or change namespace. Careful, when you stop minikube, context/namespace are set to null, so your kube commands won't be pointing to any context. You need to explicitly set again context.
+
+`minikube` command is just a proxy of `kubectl` commands, with a different command format but doing the same underneath.
+
 ## Helm charts
 
 Each object requires a custom yaml configuration file.
@@ -43,4 +51,7 @@ This values can be reuse in each object.yaml file. Maximizing reusability and re
 
 ## References
 
-- [k9s commands](https://gist.github.com/McLargo/87380a47a148f6b4c2964db96e876e8e)
+- [k9s commands](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c#file-k9s-md)
+- [minikube handbook](https://minikube.sigs.k8s.io/docs/handbook/)
+- [minikube/kubectl commands](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c#file-minikube-md)
+
