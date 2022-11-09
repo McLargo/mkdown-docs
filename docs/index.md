@@ -23,8 +23,8 @@ Repo that generate this website, can be found in my github.
 
 ## What you cannot find in here
 
-- cheatsheets, they belong to [gists](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c). It enables quicker updates
-- code, that belongs to [github](https://github.com/McLargo/). Either private/public repo
-- books or manuals
-- mentoring assets
-- interview process
+- cheatsheets, they belong to [gists](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c). It enables quicker updates.
+- code, that belongs to [github](https://github.com/McLargo/). Either private/public repo.
+- [mentoring assets](https://gist.github.com/McLargo/105f658ffdabdae8ffb297a05c6949d9)
+- interview process/reviews. Those are not public.
+- books or manuals. Check in Google Drive.
