@@ -12,6 +12,7 @@ theme:
 
 nav:
   - DevOps:
+    - Docker: devops/docker.md
     - Features Toggles: devops/features-toggles.md
     - Kubernetes: devops/k8s.md
     - Serverless Computing: devops/serverless.md
