@@ -36,4 +36,5 @@ nav:
     - Supervisor: utils/supervisor.md
     - Transmission: utils/transmission.md
     - Working environment: utils/working-environment.md
+    - Ubuntu: utils/ubuntu.md
   - Template: template.md
