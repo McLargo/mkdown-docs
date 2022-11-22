@@ -39,3 +39,5 @@ nav:
     - Ubuntu: utils/ubuntu.md
     - Working environment: utils/working-environment.md
   - Template: template.md
+
+copyright: Copyright &copy; 2022 <a href="https://github.com/McLargo">Javier Gil</a>.
