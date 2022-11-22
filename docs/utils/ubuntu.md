@@ -9,7 +9,7 @@ Ubuntu has a default shell, to run different commands, but there are others like
 ## dotfiles
 
 Private files in a Linux os. Usually, they contain configuration used by different tools, like terminal, profile, k8s, git...
-It can be used to speed up (installation)[https://github.com/McLargo/installation] of a new OS from scratch.
+It can be used to speed up [installation](https://github.com/McLargo/installation) of a new OS from scratch.
 Totally customizable with my needs.
 
 ## References
