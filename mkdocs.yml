@@ -20,9 +20,12 @@ nav:
     - Kubernetes: devops/k8s.md
     - Serverless Computing: devops/serverless.md
   - Programming:
-    - Python: programming/python.md
     - Django: programming/django.md
+    - FastApi: programming/fastapi.md
+    - Flask: programming/flask.md
+    - Python: programming/python.md
     - Open API: programming/openapi.md
+    - SQLAlchemy: programming/sqlalchemy.md
     - Virtualenvs: programming/virtualenvs.md
   - Project Management:
     - C4 Model: project-management/c4-model.md
