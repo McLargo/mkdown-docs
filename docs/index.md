@@ -8,6 +8,7 @@ Grouped in different categories:
 
 | Topic              | Description                                               |
 | ------------------ | --------------------------------------------------------- |
+| Architecture       | Related to patterns, architecture designs...              |
 | DevOps             | Related to deployments, ci/cd...                          |
 | Programming        | Directly related to programming                           |
 | Project management | Project management stuff                                  |

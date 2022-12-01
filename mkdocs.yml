@@ -11,6 +11,9 @@ theme:
     - yaml
 
 nav:
+  - Architecture:
+    - Architecture Decision Records: architecture/architecture-decision-record.md
+    - Microservices: architecture/microservices.md
   - DevOps:
     - Docker: devops/docker.md
     - Features Toggles: devops/features-toggles.md
@@ -22,7 +25,6 @@ nav:
     - Open API: programming/openapi.md
     - Virtualenvs: programming/virtualenvs.md
   - Project Management:
-    - Architecture Decision Records: project-management/architecture-decision-record.md
     - C4 Model: project-management/c4-model.md
     - SCRUM: project-management/scrum.md
     - Technical Leader: project-management/tech-lead.md
