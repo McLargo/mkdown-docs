@@ -16,7 +16,14 @@ Grouped in different categories:
 
 With time and more documents covered, relation between them will be enriched. It shouldn't be a just isolated documents, but more of a wiki to cover my professional philosophy and understanding on technical topics.
 
-Using [markdown](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c#file-markdown-cheatsheet) to make it easier to build new documents from IDE. [Template sample available for this wiki](template).
+Using [markdown](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c#file-markdown-cheatsheet) to make it easier to build new documents from IDE. [Template sample available for this wiki](template). Using [markdown good practices](https://learn.microsoft.com/en-us/powershell/scripting/community/contributing/general-markdown?view=powershell-7.3). Highlighted practices are:
+
+- Don't use more than one blank line.
+- Remove extra spaces at the end of lines.
+- Always uses spaces instead of hard tabs.
+- Only one H1 per document.
+- Header levels should increment by one -- don't skip levels.
+- Limit line length to 100 characters.
 
 [Mkdocs](https://www.mkdocs.org/) as site generator for my documentation. Includes nice features as search, customizable layout and easy deployment to github pages, making it 100% online.
 
