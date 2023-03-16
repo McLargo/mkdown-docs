@@ -2,7 +2,9 @@
 
 ## What you can find in here
 
-This **MUST** be a dynamic documentation, constantly updated. Any new tool learn or good practice to include in my daily work must have a space in this project. Also, guidelines/ways of working applicable, no matter my current project.
+This **MUST** be a dynamic documentation, constantly updated. Any new tool learn
+or good practice to include in my daily work must have a space in this project.
+Also, guidelines/ways of working applicable, no matter my current project.
 
 Grouped in different categories:
 
@@ -14,9 +16,15 @@ Grouped in different categories:
 | Project management | Project management stuff                                  |
 | Utils              | Misc of other interesting utils required for daily basics |
 
-With time and more documents covered, relation between them will be enriched. It shouldn't be a just isolated documents, but more of a wiki to cover my professional philosophy and understanding on technical topics.
+With time and more documents covered, relation between them will be enriched. It
+shouldn't be a just isolated documents, but more of a wiki to cover my
+professional philosophy and understanding on technical topics.
 
-Using [markdown](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c#file-markdown-cheatsheet) to make it easier to build new documents from IDE. [Template sample available for this wiki](template). Using [markdown good practices](https://learn.microsoft.com/en-us/powershell/scripting/community/contributing/general-markdown?view=powershell-7.3). Highlighted practices are:
+Using
+[markdown](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c#file-markdown-cheatsheet)
+to make it easier to build new documents from IDE.
+[Template sample available for this wiki](template). Using
+[markdown good practices](https://learn.microsoft.com/en-us/powershell/scripting/community/contributing/general-markdown?view=powershell-7.3). Highlighted practices are:
 
 - Don't use more than one blank line.
 - Remove extra spaces at the end of lines.
@@ -25,7 +33,9 @@ Using [markdown](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283
 - Header levels should increment by one -- don't skip levels.
 - Limit line length to 100 characters.
 
-[Mkdocs](https://www.mkdocs.org/) as site generator for my documentation. Includes nice features as search, customizable layout and easy deployment to github pages, making it 100% online.
+[Mkdocs](https://www.mkdocs.org/) as site generator for my documentation.
+Includes nice features as search, customizable layout and easy deployment to
+github pages, making it 100% online.
 
 Repo that generate this website, can be found in my github.
 

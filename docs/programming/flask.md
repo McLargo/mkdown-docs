@@ -1,7 +1,7 @@
 # Flask
 
-It is nice framework to quickly build API from scratch.
-Specially to work with databases, it has a robust library to work with [SQLAlchemy](../sqlalchemy)
+It is nice framework to quickly build API from scratch. Specially to work with
+databases, it has a robust library to work with [SQLAlchemy](../sqlalchemy)
 Schema validation with marshmallow, HTTP code responses standardized.
 
 ## Reference

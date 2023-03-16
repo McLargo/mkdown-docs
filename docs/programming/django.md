@@ -1,12 +1,13 @@
-## Django
+# Django
 
 ## Installation
 
-to install django, lets create a requirements.txt file, with desired version of django
+to install django, lets create a requirements.txt file, with desired version of
+django.
 
 `django==1.11.13`
 
-then, install libraries in file
+then, install libraries in file:
 
 `pip install -r requirements.txt`
 
@@ -20,7 +21,7 @@ First, on Django, you'll need to create a project by:
 
 `django-admin startproject <project>`
 
-that's basic configuration. To check evertyhing looks good, run:
+that's basic configuration. To check everything looks good, run:
 
 `python manage.py runserver`
 
@@ -28,9 +29,9 @@ if we want to test via shell, run:
 
 `python manage.py shell`
 
-
 ## basic schema of django app
-a project can contains one or more apps. Also, an app can be used in several projects
+
+A project can contains one or more apps. Also, an app can be used in several projects
 
 To create a new app in our project:
 
@@ -48,6 +49,7 @@ New folder is created. It contains basic schema:
     represent the models. Django use an ORM, that means, tables and database corresponds to Model classes.
 
 Add app configuration to `project/settings.py`:
+
 ```python
     INSTALLED_APPS = [
         '<app>.apps.<App>Config',
@@ -55,8 +57,9 @@ Add app configuration to `project/settings.py`:
 
 ## Migrations
 
-Every changes on models, needs to be migrate to database schema.
-After add/update information to models.py file, changes needs to be done on database level
+Every changes on models, needs to be migrate to database schema. After
+add/update information to models.py file, changes needs to be done on database
+level
 
 Make migrations:
 

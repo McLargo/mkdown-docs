@@ -17,6 +17,7 @@ Cluster between master/worker nodes
 Service - > deployment -> replicaset -> POD
 
 Service can be:
+
 - cluster IP (DNS)
 - load balancer
 - node ports
@@ -25,6 +26,7 @@ Ingress, it is like a callback.
 Storage or persistent
 
 Other concepts:
+
 - label
 - memory
 - cpu
@@ -51,12 +53,26 @@ This values can be reuse in each object.yaml file. Maximizing reusability and re
 
 ## Readiness and liveness, startup probes
 
-Kubernetes simply observes the pod's lifecycle and starts to route traffic to the pod when the containers move from the Pending to Succeeded state. That means, Kubernetes mark a pod as healthy and ready to get request as soon as this happens. But application may receive traffic before is actually ready, because it needs to make database connection or load some data. There is a gap between when the app is ready and when  Kubernetes thinks is ready. Risk of receive traffic and return 500 errors. Similar case happens when Kubelet watches for application crashes and restarts the pod to recover.
+Kubernetes simply observes the pod's lifecycle and starts to route traffic to
+the pod when the containers move from the Pending to Succeeded state. That
+means, Kubernetes mark a pod as healthy and ready to get request as soon as this
+happens. But application may receive traffic before is actually ready, because
+it needs to make database connection or load some data. There is a gap between
+when the app is ready and when Kubernetes thinks is ready. Risk of receive
+traffic and return 500 errors. Similar case happens when Kubelet watches for
+application crashes and restarts the pod to recover.
 
 3 different probes:
-- Readiness probes are used to let kubelet know when the application is ready to accept new traffic. It runs during the pod's entire lifecycle, to deal when the application is temporarily unavailable (wait for it to recover).
-- Liveness probe, determines the health, and kills the pod if it fails the liveness check (deadlock situation, since the underlying process continues to run from Kubernetes's perspective).
-- Startup probes are similar to readiness probes but only executed at startup. They are optimized for slow starting containers or applications with unpredictable initialization processes.
+
+- Readiness probes are used to let kubelet know when the application is ready to
+  accept new traffic. It runs during the pod's entire lifecycle, to deal when
+  the application is temporarily unavailable (wait for it to recover).
+- Liveness probe, determines the health, and kills the pod if it fails the
+  liveness check (deadlock situation, since the underlying process continues to
+  run from Kubernetes's perspective).
+- Startup probes are similar to readiness probes but only executed at startup.
+  They are optimized for slow starting containers or applications with
+  unpredictable initialization processes.
 
 ## References
 

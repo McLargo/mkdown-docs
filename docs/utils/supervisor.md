@@ -21,7 +21,9 @@ sudo supervisorctl -c /etc/supervisor/supervisord.conf reread
 sudo supervisorctl -c /etc/supervisor/supervisord.conf reload
 ```
 
-If something went wrong, sock may be deleted in /var/run/supervisor.conf, and supervisorctl status will show an error. To solve, check new configuration files, if something is buggy, fix it or remove conf and run command again.
+If something went wrong, sock may be deleted in /var/run/supervisor.conf, and
+supervisorctl status will show an error. To solve, check new configuration
+files, if something is buggy, fix it or remove conf and run command again.
 
 Then, run, to relaoad new configuration and start service again with:
 

@@ -1,10 +1,13 @@
 # IDE (Integrated Development Environment)
 
-An IDE, or Integrated Development Environment, enables programmers to consolidate the different aspects of writing a computer program. It helps you editing your source code, debugging, and auto-completing.
+An IDE, or Integrated Development Environment, enables programmers to
+consolidate the different aspects of writing a computer program. It helps you
+editing your source code, debugging, and auto-completing.
 
 ## Sublime
 
-Simple, light and robust. It has everything I need to work with python. Installation by default on [my .dotfiles](../ubuntu/#dotfiles)
+Simple, light and robust. It has everything I need to work with python.
+Installation by default on [my .dotfiles](../ubuntu/#dotfiles)
 
 ## VS Code
 

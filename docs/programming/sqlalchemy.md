@@ -1,9 +1,5 @@
 # SQL Alchemy
 
-
-
-
-
 ## Reference
 
 - [alembic](https://alembic.sqlalchemy.org/en/latest/)

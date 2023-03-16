@@ -1,6 +1,9 @@
 # Docker
 
-In a nutshell, docker executes containers, which is a customize instance of an image. Encapsulate libraries, dependencies, environment variables, configuration... in a `Dockerfile` to enable easy initialization of new services, without install any local dependencies that can corrupt your system.
+In a nutshell, docker executes containers, which is a customize instance of an
+image. Encapsulate libraries, dependencies, environment variables,
+configuration... in a `Dockerfile` to enable easy initialization of new
+services, without install any local dependencies that can corrupt your system.
 
 You can start/stop/access those containers. Totally portable to any OS.
 
