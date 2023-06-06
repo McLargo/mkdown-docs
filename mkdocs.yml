@@ -19,6 +19,7 @@ nav:
     - Features Toggles: devops/features-toggles.md
     - Kubernetes: devops/k8s.md
     - Serverless Computing: devops/serverless.md
+    - Versioning: devops/versioning.md
   - Programming:
     - Django: programming/django.md
     - FastApi: programming/fastapi.md
