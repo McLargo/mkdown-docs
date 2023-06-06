@@ -24,7 +24,8 @@ Using
 [markdown](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c#file-markdown-cheatsheet)
 to make it easier to build new documents from IDE.
 [Template sample available for this wiki](template). Using
-[markdown good practices](https://learn.microsoft.com/en-us/powershell/scripting/community/contributing/general-markdown?view=powershell-7.3). Highlighted practices are:
+[markdown good practices](https://learn.microsoft.com/en-us/powershell/scripting/community/contributing/general-markdown?view=powershell-7.3).
+Highlighted practices are:
 
 - Don't use more than one blank line.
 - Remove extra spaces at the end of lines.
@@ -41,7 +42,9 @@ Repo that generate this website, can be found in my github.
 
 ## What you cannot find in here
 
-- cheatsheets, they belong to [gists](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c). It enables quicker updates.
+- cheatsheets, they belong to
+  [gists](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c). It
+  enables quicker updates.
 - code, that belongs to [github](https://github.com/McLargo/). Either private/public repo.
 - [mentoring assets](https://gist.github.com/McLargo/105f658ffdabdae8ffb297a05c6949d9)
 - interview process/reviews. Those are not public.
