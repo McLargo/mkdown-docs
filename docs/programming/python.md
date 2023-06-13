@@ -49,6 +49,16 @@ python es un lenguaje (maravilloso) de programación. Es un lenguage interpretad
 
 [virtualenvs](../../utils/virtualenv)
 
+[poetry](https://python-poetry.org/docs/)
+
+Poetry is a dependency management. Easy installation, and management. Instead of
+a mix of files related to installation, everything is managed in file **pyproyect.toml**.
+
+According to [pep518](https://peps.python.org/pep-0518/) this is the file where
+the build system dependencies will be stored in
+[TOML](https://realpython.com/python-toml/) (basic key-vales pair format). It
+can group common configuration, and it can be use for multiple purposes.
+
 [Learn python in 10 minutes](https://www.stavros.io/tutorials/python/)
 [Learn python in 10 minutes](https://learnxinyminutes.com/docs/python/)
 
@@ -98,3 +108,8 @@ Bucles:
 
 - for item in items:
 - while i < 6:
+
+
+## References
+
+- [peps](https://peps.python.org/)
