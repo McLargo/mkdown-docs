@@ -2,7 +2,8 @@
 
 You can install `mkdocs` locally via pip: `pip install mkdocs`
 
-In my case, I installed with `poetry`. First time, execute: `poetry init`
+In my case, I installed using `poetry`. First time, execute: `poetry init`. If
+second, execute: `poetry install`.
 
 After initialize the project, run to enter the virtualenv: `poetry shell`
 
@@ -16,7 +17,7 @@ mkdocs build --clean
 mkdocs serve
 ```
 
-Deploy mkdocs to github pages, from submodule folder:
+Deploy mkdocs to github pages, from the submodule folder:
 
 `mkdocs gh-deploy --config-file ../mkdocs.yml --remote-branch master`
 
