@@ -14,7 +14,7 @@ Some actions that a tech lead can do are:
 - Attend meet-ups and also maintain constant communication with other Tech Leads
   around you.
 
-![Tech Lead](../../assets/img/tech-lead.png)
+![Tech Lead](../assets/img/tech-lead.png)
 
 ## Responsibilities
 
