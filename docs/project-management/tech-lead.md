@@ -1,16 +1,57 @@
 # Technical leader
 
-TODO: review A tech lead job is to make sure the team work with quality. Part of
-this job is to plan, design, lean and execute technical solutions and
-improvements. Interact with other tech leads, sharing information and good
-practices.
+The job of a tech lead is to make sure the team work with quality. Part of this
+job is to plan, design, learn and execute technical solutions and improvements.
+Interact with other tech leads, sharing information and good practices. Also,
+clarifying technical doubts with stakeholders. Aside from that, a tech lead is
+also responsible for the team, understanding member’s strengths, weaknesses.
+Mentoring and guide them.
 
-## Responsability
+Some actions that a tech lead can do are:
 
-- Code quality assurance. Testing, coverage...
-- Make sure style guide matches. pre-commit, sonar, jenkins, github action....
-- Provide design direction. Follow SOLID principles
-- Good pull request practices
+- Keep in touch with popular tech conferences and events
+- Read tech blogs daily [cult.honeypot](https://cult.honeypot.io/)
+- Attend meet-ups and also maintain constant communication with other Tech Leads
+  around you.
+
+![Tech Lead](../../assets/img/tech-lead.png)
+
+## Responsibilities
+
+### Code quality assurance
+
+- No style guide mismatch, using same for the all team. Follow
+  [PEP8](https://peps.python.org/pep-0008/).
+- No linters issues. Find bugs, duplicity of code, bad practices, TODO and
+  FIXME... use tools like [pre-commit hooks](https://pre-commit.com/hooks.html), jenkins, sonarqube, etc.
+- Good test code coverage with unit and functional test. Over 95% if possible.
+
+### Provide architectural and design direction
+
+- Follow SOLID principles.
+- Avoid code rewritten or delete not long after creation.
+- Reduce code smells by refactoring code.
+
+### Control Technical Debt
+
+- Keeping a low number of technical debt.
+
+### Ensure code review healthiness
+
+- Applying good pull request practices.
+- Reducing time to merge.
+- Avoid huge pull request.
+
+
+- [Commit lint online](https://commitlint.io/)
+- [Docstring pydoc](https://www.datacamp.com/tutorial/docstrings-python)
+
+### Ship good quality code fast
+
+- Deploying to production frequently.
+- SMall deployments.
+- Keep a relation of bugs per deployment. Are detected fast by the team or user? Are
+  fixed fast?
 
 ## Motivation
 
@@ -22,53 +63,6 @@ practices.
   the best possible.
 - We as external need to be lead
 
-## Good practices
-
-- TODO: Redact a generic definition of DONE
-
-```bash
-- before creating a new class or method, be sure there isn't such similar functionality already in the code
-- do unit tests
-- do functional tests
-- validate flake8, mypy and isort
-- poetry vs pipenv
-- close contracts
-- fill with more tools
-```
-
-- [Commit lint online](https://commitlint.io/)
-- [Docstring pydoc](https://www.datacamp.com/tutorial/docstrings-python)
-
-What is a tech lead
-
-tech leads are software engineers that enable the team to work with quality.
-
-## agile/scrum methodology
-
-[What is agile](https://www.cprime.com/resources/what-is-agile-what-is-scrum/)
-
- Scrum significantly increases productivity and reduces time to benefits relative to classic “waterfall” processes. Scrum processes enable organizations to adjust smoothly to rapidly-changing requirements, and produce a product that meets evolving business goals.
-
-Increase the quality of the deliverables
-Cope better with change (and expect the changes)
-Provide better estimates while spending less time creating them
-Be more in control of the project schedule and state
-
-## Benefits to Customer
-
-Customers find that the vendor is more responsive to development requests.
-High-value features are developed and delivered more quickly with short cycles,
-than with the longer cycles favored by classic “waterfall” processes. Benefits
-to Vendors.
-
-Vendors reduce wastage by focusing development effort on high-value features,
-and reduce time-to-market relative to waterfall processes due to decreased
-overhead and increased efficiency. Improved customer satisfaction translates to
-better customer retention and more positive customer references. Benefits to
-Development Teams
-
-Team members enjoy development work, and like to see their work used and valued. Scrum benefits Team
-
 ## References
 
-- [5 responsibilities of a Tech Lead and 17 metrics to track their performance](https://sourcelevel.io/blog/5-responsibilities-of-a-tech-lead-and-17-metrics-to-track-their-performance)
+- [Responsibilities of a Tech Lead](https://sourcelevel.io/blog/5-responsibilities-of-a-tech-lead-and-17-metrics-to-track-their-performance)
