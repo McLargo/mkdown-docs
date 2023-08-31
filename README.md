@@ -5,7 +5,7 @@ You can install `mkdocs` locally via pip: `pip install mkdocs`
 In my case, I installed using `poetry`. First time, execute: `poetry init`. If
 second, execute: `poetry install`.
 
-After initialize the project, run to enter the virtualenv: `poetry shell`
+After initialize the project, run to enter the virtualenv: `poetry shell`.
 
 To add new mdkocs as a dependency, run: `poetry add mkdocs`
 
@@ -21,8 +21,14 @@ Deploy mkdocs to github pages, from the submodule folder:
 
 `mkdocs gh-deploy --config-file ../mkdocs.yml --remote-branch master`
 
-`make` commands available for easy usage of the tool. Run `make` or `make help`
-for extra support.
+> :warning: **Before deploying a new version of mkdocs for the first time in a new computer,
+> clone folder `mclargo.github.io` here!**
+
+
+## Makefile
+
+`make` commands available for easy usage of mkdocs cli explained above. 
+Run `make` or `make help` for extra support.
 
 ## Reference
 
