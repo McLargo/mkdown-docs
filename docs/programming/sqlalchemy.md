@@ -1,6 +1,6 @@
 # SQL Alchemy
 
-## Reference
+## References
 
 - [alembic](https://alembic.sqlalchemy.org/en/latest/)
 - [Asyncio scoped session](https://docs.sqlalchemy.org/en/14/orm/extensions/asyncio.html#using-asyncio-scoped-session)

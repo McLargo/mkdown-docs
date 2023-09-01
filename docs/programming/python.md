@@ -80,7 +80,7 @@ different thread inside the same process/CPU.
 
 [Sample of async vs sync](https://realpython.com/async-io-python/#the-asyncio-package-and-asyncawait)
 
-## Reference
+## References
 
 - [async python](https://realpython.com/async-io-python/)
 

@@ -27,10 +27,10 @@ Deploy mkdocs to github pages, from the submodule folder:
 
 ## Makefile
 
-`make` commands available for easy usage of mkdocs cli explained above. 
+`make` commands available for easy usage of mkdocs cli explained above.
 Run `make` or `make help` for extra support.
 
-## Reference
+## References
 
 - [mkdocs](https://www.mkdocs.org/)
 - [Publishing mkdown docs on github pages](https://dev.to/ar2pi/publish-your-markdown-docs-on-github-pages-6pe)

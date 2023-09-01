@@ -49,3 +49,8 @@ Repo that generate this website, can be found in my github.
 - [mentoring assets](https://gist.github.com/McLargo/105f658ffdabdae8ffb297a05c6949d9)
 - interview process/reviews. Those are not public.
 - books or manuals. Check in Google Drive.
+
+## References
+
+- [mkdocs](https://mkdocstrings.github.io/)
+- [mkdocs catalog](https://github.com/mkdocs/catalog)

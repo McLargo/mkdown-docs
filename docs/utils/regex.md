@@ -107,7 +107,7 @@ We can group an expression and use these groups to reference or enforce some
 rules. To group an expression, we enclose `()` in parentheses. For now just
 group `haa` below.
 
-### Group Reference
+### Group References
 
 Referencing a Group
 
@@ -279,7 +279,7 @@ example, in the example below, add a `?` after `*` to find the first match that
 ends with the letter `r` and is preceded by any character. It means that this
 match will stop at the first letter `r`.
 
-## Reference
+## References
 
 - [Learn Regex](https://regexlearn.com/learn/regex101)
 - [Cheatsheet](https://regexlearn.com/cheatsheet)

@@ -50,7 +50,7 @@ API is implemented together with the code, and OpenAPI specification is created
 with code comments, annotation and description in it. It is faster, but can lead
 to changes in the contract (may not be an issue if the project is starting up).
 
-## Reference
+## References
 
 - [Online swagger editor](https://editor.swagger.io/#/)
 - [Swagger specification](https://swagger.io/docs/specification/about/)

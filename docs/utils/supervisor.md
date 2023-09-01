@@ -33,7 +33,7 @@ sudo supervisorctl reload
 
 Now, your supervisor service should be up and running
 
-## Reference
+## References
 
 Some interesting samples and documentation
 
