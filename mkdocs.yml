@@ -4,11 +4,15 @@ site_author: Javier Gil
 site_description: Mix of features, good practices, tools and utils useful in my professional environment
 
 theme:
-  name: mkdocs
+  name: bootstrap4
   highlightjs: true
   use_directory_urls: true
   hljs_languages:
     - yaml
+  locale: en
+
+plugins:
+  - search
 
 nav:
   - Architecture:
