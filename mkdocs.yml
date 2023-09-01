@@ -21,6 +21,7 @@ nav:
     - Serverless Computing: devops/serverless.md
     - Versioning: devops/versioning.md
   - Programming:
+    - Development workflows: programming/development-workflows.md
     - Django: programming/django.md
     - FastApi: programming/fastapi.md
     - Flask: programming/flask.md
