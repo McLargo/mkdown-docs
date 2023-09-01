@@ -167,3 +167,4 @@ Communication is key. It is not about the person, is the Team.
 - [What is Scrum?](https://www.cprime.com/resources/what-is-agile-what-is-scrum/)
 - [How it works?](https://proyectosagiles.org/como-funciona-scrum/)
 - [Online platform for scrum meetings](https://www.parabol.co/)
+- [JIRA tutorial](https://www.guru99.com/jira-tutorial-a-complete-guide-for-beginners.html)

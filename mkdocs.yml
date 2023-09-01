@@ -4,12 +4,18 @@ site_author: Javier Gil
 site_description: Mix of features, good practices, tools and utils useful in my professional environment
 
 theme:
-  name: bootstrap4
+  name: windmill
   highlightjs: true
   use_directory_urls: true
   hljs_languages:
     - yaml
   locale: en
+
+extra:
+  version: 2023.09
+
+extra_css:
+  - assets/css/extra.css
 
 plugins:
   - search
@@ -52,6 +58,5 @@ nav:
     - Transmission: utils/transmission.md
     - Ubuntu: utils/ubuntu.md
     - Working environment: utils/working-environment.md
-  - Template: template.md
 
-copyright: Copyright &copy; 2022 <a href="https://github.com/McLargo">Javier Gil</a>.
+copyright: Copyright &copy; 2023 <a href="https://github.com/McLargo">Javier Gil</a>.
