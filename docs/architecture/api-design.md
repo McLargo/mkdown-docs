@@ -1,7 +1,9 @@
-# Developing an API
+# API Design
 
-Briefly description of what should be consider when developing an API, some good
-practices.
+Briefly description of what should be consider when designing and developing an
+API, some good practices. Design good API from starters is important, as they
+can grow quickly and it is hard to change them later. Also, new developers can
+have a quicker ramp up to the project.
 
 ## Good practices RESTful API
 
@@ -66,6 +68,7 @@ Google Secrets Manager...
 
 ## References
 
+- [API Design](http://apistylebook.com/design/topics/)
 - [Pragmatic restful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
 - [Naming rest API endpoints](https://blog.dreamfactory.com/best-practices-for-naming-rest-api-endpoints/)
 - [PUT vs POST](https://restfulapi.net/rest-put-vs-post/)

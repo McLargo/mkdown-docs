@@ -12,7 +12,9 @@ theme:
 
 nav:
   - Architecture:
+    - API Design: architecture/api-design.md
     - Architecture Decision Records: architecture/architecture-decision-record.md
+    - gRPC: architecture/grpc.md
     - Microservices: architecture/microservices.md
   - DevOps:
     - Continuous integration: devops/continuous-integration.md
@@ -28,7 +30,7 @@ nav:
     - FastApi: programming/fastapi.md
     - Flask: programming/flask.md
     - Python: programming/python.md
-    - Open API: programming/openapi.md
+    - OpenAPI Specification: programming/openapi.md
     - SQLAlchemy: programming/sqlalchemy.md
     - Virtualenvs: programming/virtualenvs.md
   - Project Management:
@@ -40,7 +42,6 @@ nav:
   - Utils:
     - Daemon: utils/daemon.md
     - Databases: utils/databases.md
-    - Developing an API: utils/developing-api.md
     - IDE: utils/ide.md
     - Regex: utils/regex.md
     - Supervisor: utils/supervisor.md
