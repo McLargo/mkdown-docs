@@ -19,7 +19,6 @@ extra_css:
 
 plugins:
   - search
-  - autorefs
 
 nav:
   - Architecture:

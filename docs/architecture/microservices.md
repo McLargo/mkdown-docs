@@ -1,7 +1,7 @@
 # Microservices
 
  It is architectural style that focuses on discrete services instead of a
- [monolithic design](monolithic-architecture). Microservices architecture breaks down an
+ [monolithic design](../architecture/monolithic.md). Microservices architecture breaks down an
  application into smaller, independent services that each serve a specific
  business capability or function. These services are developed and deployed
  independently, often with their own codebase and database.
@@ -27,7 +27,6 @@
 
 - Managing the interactions between multiple services can introduce complexity
   in terms of service discovery, communication, and monitoring.
-
 
 ## Orchestration
 
@@ -86,7 +85,6 @@ result in more complex service discovery and network traffic management.
 ![Choreography](../assets/img/choreography.png)
 
 ## References
-
 
 - [Orchestration vs choreography](https://www.accionlabs.com/microservices-orchestration-vs-choreography-what-to-prefer)
 - [Saga pattern](https://microservices.io/patterns/data/saga.html)
