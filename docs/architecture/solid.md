@@ -31,6 +31,4 @@ One should depend upon abstractions, not concretions.
 
 ## References
 
-- SOLID Principles Around You
-
 - [Skteches for the Solid principles](https://okso.app/showcase/solid)
