@@ -19,13 +19,18 @@ extra_css:
 
 plugins:
   - search
+  - autorefs
 
 nav:
   - Architecture:
     - API Design: architecture/api-design.md
     - Architecture Decision Records: architecture/architecture-decision-record.md
+    - Design Patterns: architecture/design-patterns.md
+    - Event Driven: architecture/event-driven.md
     - gRPC: architecture/grpc.md
+    - Monolithic Architecture: architecture/monolithic.md
     - Microservices: architecture/microservices.md
+    - Solid Principles: architecture/solid.md
   - DevOps:
     - Continuous integration: devops/continuous-integration.md
     - Docker: devops/docker.md
