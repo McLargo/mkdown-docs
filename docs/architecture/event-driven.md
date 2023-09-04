@@ -6,7 +6,8 @@ other. No matter what approach is used, if
 [Choreography](../architecture/microservices.md#choreography), both can use an
 Event-driven architecture to communicate with the difference services involved.
 Events are trigger from services and other services can subscribe to them, and
-react upon the event information.
+react upon the event information. Communication between services using events is
+[asynchronous](../architecture/asynchronous-messaging.md).
 
 ## Domain events
 

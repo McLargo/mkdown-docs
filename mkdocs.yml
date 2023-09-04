@@ -24,6 +24,7 @@ nav:
   - Architecture:
     - API Design: architecture/api-design.md
     - Architecture Decision Records: architecture/architecture-decision-record.md
+    - Asynchronous messaging: architecture/asynchronous-messaging.md
     - Design Patterns: architecture/design-patterns.md
     - Event Driven: architecture/event-driven.md
     - gRPC: architecture/grpc.md
