@@ -35,7 +35,9 @@ nav:
     - Continuous integration: devops/continuous-integration.md
     - Docker: devops/docker.md
     - Features Toggles: devops/features-toggles.md
+    - Helm Charts: devops/helm.md
     - Kubernetes: devops/k8s.md
+    - Observability: devops/observability.md
     - Serverless Computing: devops/serverless.md
     - Versioning: devops/versioning.md
   - Programming:
