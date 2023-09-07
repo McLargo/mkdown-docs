@@ -125,9 +125,17 @@ external to cluster.
   provisioned by the cloud provider. Creates and manages an external load
   balancer, managing traffic across all nodes.
 
-Another option is Ingress. It is a layer-7 load balancer. It is a resource that
+Another option is **Ingress**. It is a layer-7 load balancer. It is a resource that
 balance the traffic for one or more services. Ingress rules to balance traffic
-to specific service.
+to specific service. An Ingress may be configured to give Services
+externally-reachable URLs, load balance traffic, terminate SSL / TLS, and offer
+name-based virtual hosting. An Ingress controller is responsible for fulfilling
+the Ingress, usually with a load balancer, though it may also configure your
+edge router or additional frontends to help handle the traffic. Same rules as
+Nginx or Traefic can be applied to Ingress, meaning that traffic to a domain or a
+specific path can be redirect to the corresponding labelled service.
+
+![Ingress flow](../assets/img/k8s-ingress.png)
 
 ## Resource organization
 
