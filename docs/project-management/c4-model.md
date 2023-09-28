@@ -38,3 +38,7 @@ and it is not worthy. Can be generated on demand by IDE
 - Add words to make the intent explicit
 - Key/Legend to explain shapes, lines, colors, border... even if they seem obvious
 - Increase the readability of software architecture diagrams, so they can stand alone
+
+## References
+
+- [C4 modelling tool](https://icepanel.io/)
