@@ -2,7 +2,7 @@
 
 [C4 model](https://c4model.com/) represents different diagrams for different
 roles working together for the same ecosystem. Not everyone needs the same level
-of details on a syem/service. Different levels reaches to different roles. And
+of details on a system/service. Different levels reaches to different roles. And
 it is easy to zoom-in/zoom-out to understand more/less details.
 
 ## L1 - System contexts
