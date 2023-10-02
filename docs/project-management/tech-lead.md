@@ -20,11 +20,40 @@ Some actions that a tech lead can do are:
 
 ### Code quality assurance
 
-- No style guide mismatch, using same for the all team. Follow
-  [PEP8](https://peps.python.org/pep-0008/).
-- No linters issues. Find bugs, duplicity of code, bad practices, TODO and
-  FIXME... use tools like [pre-commit hooks](https://pre-commit.com/hooks.html), jenkins, sonarqube, etc.
+A code quality culture is essential, at organizational or individual level. High
+code quality ensures your codebase is maintainable, scalable, and efficient,
+allowing to deliver new features faster.
+
+- Establish agreed code styles, such as
+  [PEP8](https://peps.python.org/pep-0008/). Keep code consistent by
+  establishing conventions for things like naming, spacing and indentation.
+- No linters issues. Find bugs, duplicity of code, bad practices, TODO/FIXME...
+  use tools like [pre-commit hooks](https://pre-commit.com/hooks.html), jenkins,
+  sonarqube, etc.
 - Good test code coverage with unit and functional test. Over 95% if possible.
+- Tracking high-quality issues to manage tech debt properly. Prioritize and
+  schedule tech debt.
+- Code reviews. Ensure code reviews are done and are effective. Code reviews
+  should be done by a peer, not by the author. The author should be able to
+  explain the code to the reviewer. The reviewer should be able to understand
+  the code without the author's help.
+- Have a definition of done. A checklist of things that need to be done before a
+  ticket is considered done.
+- Track code quality metrics. Code Complexity, N umber of
+- Peer mentoring when needed.
+
+### Code Comments
+
+Establish conventions to ensure comments are useful, improving engineering velocity and code quality.
+
+- Managing and reducing technical debt
+- While TODO/FIXME are good for single player, but avoid using in teams. Use
+  them to aid your personal code development process and never push them to main
+  code base branch.
+- Focus on the **why**.
+- Provide context and explain the intent of the code in clases or methods ([docs
+  strings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html))
+- Avoid obvious comments.
 
 ### Provide architectural and design direction
 
@@ -41,7 +70,6 @@ Some actions that a tech lead can do are:
 - Applying good pull request practices.
 - Reducing time to merge.
 - Avoid huge pull request.
-
 
 - [Commit lint online](https://commitlint.io/)
 - [Docstring pydoc](https://www.datacamp.com/tutorial/docstrings-python)
@@ -66,3 +94,4 @@ Some actions that a tech lead can do are:
 ## References
 
 - [Responsibilities of a Tech Lead](https://sourcelevel.io/blog/5-responsibilities-of-a-tech-lead-and-17-metrics-to-track-their-performance)
+- [How to build quality code](https://stepsize.com/blog/how-to-build-a-culture-of-code-quality)
