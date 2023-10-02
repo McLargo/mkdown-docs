@@ -52,6 +52,20 @@ text (such as English) in the response body that explains why the PUT failed.
 
 [More details](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
+But, HTTP status codes are not enough to explain what went wrong. To help your
+API consumers, include a structured JSON error message, like:
+
+- Error code: A machine-readable error code that identifies the specific error
+  condition.
+- Error message: A human-readable message that provides a detailed explanation
+  of the error.
+- Error context: Additional information related to the error, such as the
+  request ID, the request parameters that caused the error, or the field(s) in
+  the request that caused the error.
+- Error links: URLs to resources or documentation that provide additional
+  information about the error and how it can be resolved.
+- Timestamp: The time when the error occurred.
+
 ## Secrets
 
 Never store unencrypted secrets in `.git` repositories. If a secret enters a
