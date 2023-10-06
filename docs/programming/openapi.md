@@ -28,7 +28,7 @@ runtime discovery.
 
 No need to write document by hand, there are nice tools or even frameworks like
 [FastAPI](../programming/fastapi.md) that generates OpenAPI specification on the
-fly. ## Approaches
+fly.
 
 ## Approaches
 

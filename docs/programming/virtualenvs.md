@@ -33,3 +33,16 @@ this environment
 
 To deactivate a virtual environment:
 `deactivate`
+
+## Poetry
+
+Poetry is a dependency management. Easy installation, and management. Instead of
+a mix of files related to installation, everything is managed in file
+**pyproyect.toml**. Also allows to differentiate between library installation
+for dev and production.
+
+According to [pep518](https://peps.python.org/pep-0518/), **pyproyect.toml** is
+the file where the build system dependencies should be stored in
+[TOML](https://realpython.com/python-toml/) format. Toml is basic key-vales pair
+format. It can group common configuration, and it can be use for multiple
+purposes.

@@ -1,115 +1,57 @@
 # Python
 
-TODO: REVIEW
+Python is the language I am more comfortable with. I have been using it for long
+time already. It is an interpreted language, so it is easy to play with it (it
+doesn't require any compilation or generate a executable file, like java). This
+allows to use python from the command line, to more complex files or web
+services.
 
-## Cursos python
+Below are brief explanations of python, but I recommend to check the
+[references section](#references) for more information.
 
-python 3.7
+## Where to start
 
-    https://www.udacity.com/course/introduction-to-python--ud1110
-    https://www.stavros.io/tutorials/python/
-    https://learnxinyminutes.com/docs/python/
-    https://www.tutorialspoint.com/python3/index.htm
-    https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/
-    https://www.hackerrank.com/challenges/py-set-add/problem
-    https://www.djangoproject.com/
+First of all, you should install python in your computer. There are many ways to
+install, but a good premise is to use the latest stable version available, as
+contains the latest features, performance improvements and bug fixes.
 
-## pep8
+Also, consider use [virtualenvs](./virtualenvs.md) or
+[poetry](./virtualenvs.md#poetry) to avoid install packages/dependencies globally
+in your machine, allowing to use different versions per project.
 
-[pep8](https://www.python.org/dev/peps/pep-0008/)
+## Good practices
 
-- use 4 spaces, instad of tab
-- use two line breaks to separate class or methods
-- use one line breaks between methods inside a class
-- how to import library
-  - standard libraries
-  - 3pp libraries
-  - django libraries
-  - local importation
+Use [pep8](https://www.python.org/dev/peps/pep-0008/) as a guide to write code.
+Keep code clean is important, as it will be easier to read and understand. It
+will also help to keep code consistent, as it will be easier to follow the same
+pattern.
 
-    **CAREFUL while doing import**
-
-  - it is relative import if it is same app: _.{class}_
-  - better use absolute import: _{app}.{class}_
-  - avoid using _from something import *_
-
-- use `_` instead of `-`
-- avoid use of abbreviature while defining variable, classes or methods
-- one empty line at the end of the file
-- 79 max length of line
-- use flake8 and [pylint](https://github.com/PyCQA/pylint/blob/master/pylintrc), standard libraries to check pep8 and lintº
-
-## description
-
-python es un lenguaje (maravilloso) de programación. Es un lenguage interpretado (no necesita compilación de un ejecutable como java). Eso permite que podamos jugar con él, bien desde la línea de comandos, hasta ficheros más complejos o aplicaciones que soporten servicios web.
-
-[Tutorial base en castellano](https://www.learnpython.org/es/)
-
-[Basic tutorial from python (english)](https://docs.python.org/3/tutorial/index.html)
-
-[virtualenvs](../../utils/virtualenv)
-
-[poetry](https://python-poetry.org/docs/)
-
-Poetry is a dependency management. Easy installation, and management. Instead of
-a mix of files related to installation, everything is managed in file **pyproyect.toml**.
-
-According to [pep518](https://peps.python.org/pep-0518/) this is the file where
-the build system dependencies will be stored in
-[TOML](https://realpython.com/python-toml/) (basic key-vales pair format). It
-can group common configuration, and it can be use for multiple purposes.
-
-[Learn python in 10 minutes](https://www.stavros.io/tutorials/python/)
-[Learn python in 10 minutes](https://learnxinyminutes.com/docs/python/)
+pep8 are a set of rules to follow. There are some tools that can help to check
+the quality of the code, such as flake8, pylint, ruff... Beauty of pep8, is that
+rules are flexible to meet the needs of the project.
 
 ## async
 
-When normally running python code, code is executing sequentially in the same
+When you are running python code, code is executing sequentially in the same
 process/thread. That means, process is blocked until code execution stopped. If
 another process enters, it acts like a queue. Until process 1 doesn't end,
-process 2 won't start execution. Can causes performance problem, as if for any
-reason process 1 is waiting (db connection, external request), those
-milliseconds CPU is waiting doing nothing.
+process 2 won't start execution. It caan causes performance problem, as if for
+any reason process 1 is waiting (db connection, external request...), during
+those milliseconds CPU is waiting doing nothing.
 
-Problem is solved with concurrence. In python, is called `async`, allowing
-parallel execution of process, within the same CPU. Even, executing is lineal in
-the code, whatever you build, order is respect.
+This problem is solved with concurrence. In python, is called `async`, allowing
+parallel execution of process, within the same CPU. But don worry, code
+execution is lineal inside the same process. So, whatever code you are running,
+code order is respected.
 
 Async works when there are many execution of the same code, each goes to a
 different thread inside the same process/CPU.
 
-[Sample of async vs sync](https://realpython.com/async-io-python/#the-asyncio-package-and-asyncawait)
-
 ## References
 
-- [async python](https://realpython.com/async-io-python/)
-
-## Diferentes tipos de variables
-
-- integer: 2
-- float: 2.1
-- string/unicode: 'hello' / u'Hola Raúl'
-- list: [1, 2, 3]
-- tuple: (1, 2,3, )
-- dictionary: {'key': 'value'}
-- boolean
-- custom objects
-
-Condicionales:
-
-- if 1 == 1:
-- if 1 != 1:
-- if 1 in [1,2]:
-- if 1 not in [1,2]:
-- else
-- elif
-
-Bucles:
-
-- for item in items:
-- while i < 6:
-
-
-## References
-
-- [peps](https://peps.python.org/)
+- [Python](https://www.python.org/)
+- [Python introduction](https://www.udacity.com/course/introduction-to-python--ud1110)
+- [Learn python](https://learnxinyminutes.com/docs/python/)
+- [Online Python exercises](https://www.hackerrank.com/domains/python)
+- [My python lessons](https://github.com/McLargo/python-lessons)
+- [Sample of async vs sync](https://realpython.com/async-io-python/#the-asyncio-package-and-asyncawait)
