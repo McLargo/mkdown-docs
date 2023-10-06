@@ -77,8 +77,15 @@ Store secrets safely. Encrypting your secrets using common tools, such as git
 secret. Storing them within a git repository can be beneficial when working in
 teams as it keeps secrets synced.
 
-Or use "Secrets as a service" solutions, such as AWS Secrets Manager, Vault,
-Google Secrets Manager...
+A better solution is to use a "Secrets as a service", such as AWS Secrets
+Manager, Vault, [infiscal](https://github.com/Infisical/infisical), Google
+Secrets Manager...and forget about secrets management.
+
+Good to implement a secret rotation policy. This is a good practice to avoid
+security issues.
+
+Finally, in pre-commit you can add a hook to check if there are secrets in the
+code you are trying to push to the repository.
 
 ## References
 
