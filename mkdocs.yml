@@ -28,8 +28,9 @@ nav:
     - Design Patterns: architecture/design-patterns.md
     - Event Driven: architecture/event-driven.md
     - gRPC: architecture/grpc.md
-    - Monolithic Architecture: architecture/monolithic.md
     - Microservices: architecture/microservices.md
+    - Monolithic Architecture: architecture/monolithic.md
+    - Service Mesh: architecture/service-mesh.md
     - Solid Principles: architecture/solid.md
   - DevOps:
     - Continuous integration: devops/continuous-integration.md
@@ -46,8 +47,8 @@ nav:
     - Django: programming/django.md
     - FastApi: programming/fastapi.md
     - Flask: programming/flask.md
-    - Python: programming/python.md
     - OpenAPI Specification: programming/openapi.md
+    - Python: programming/python.md
     - SQLAlchemy: programming/sqlalchemy.md
     - Virtualenvs: programming/virtualenvs.md
   - Project Management:

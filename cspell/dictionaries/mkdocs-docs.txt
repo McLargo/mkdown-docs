@@ -13,6 +13,7 @@ Gantt
 highlightjs
 hljs
 infiscal
+Istio
 kubec
 kubeconfig
 kubelet
