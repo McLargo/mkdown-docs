@@ -53,11 +53,11 @@ Deployments are an objects in k8s designed to avoid declaring the exact same pod
 metadata (except by the name, as it must be unique) when you need to deploy X
 instance of the same pod.
 
-Deployments does not create actually any pods, Instead, deployment create an object in
-the middle call replica sets.. Replica sets are
-used to make it easy to roll from one version of a deployment to another. Each
-time we update a deployment, a new replica set is created that contains the
-latest configuration. Replica set actually create the pods.
+Deployments does not create actually any pods, Instead, deployment create an
+object in the middle call replica sets.. Replica sets are used to make it easy
+to roll from one version of a deployment to another. Each time we update a
+deployment, a new replica set is created that contains the latest configuration.
+Replica set actually create the pods.
 
 Two type of strategies:
 
@@ -114,7 +114,8 @@ external to cluster.
   localhost. Containers share an IP address accesible throughout the cluster and
   share common port space.
 - pod to pod: each pod has a unique IP address, so they can communicate with
-  each other. IP address are routable anywhere within the cluster. Not common procedure.
+  each other. IP address are routable anywhere within the cluster. Not common
+  procedure.
 - service to pod: service is a resource that provides layer-4 load balancing for
   a group of pods. Service discovery using the cluster's internal DNS. Types are:
   - ClusterIP (virtual IP address that load balance request to backend pods,
@@ -125,15 +126,15 @@ external to cluster.
   provisioned by the cloud provider. Creates and manages an external load
   balancer, managing traffic across all nodes.
 
-Another option is **Ingress**. It is a layer-7 load balancer. It is a resource that
-balance the traffic for one or more services. Ingress rules to balance traffic
-to specific service. An Ingress may be configured to give Services
+Another option is **Ingress**. It is a layer-7 load balancer. It is a resource
+that balance the traffic for one or more services. Ingress rules to balance
+traffic to specific service. An Ingress may be configured to give Services
 externally-reachable URLs, load balance traffic, terminate SSL / TLS, and offer
 name-based virtual hosting. An Ingress controller is responsible for fulfilling
 the Ingress, usually with a load balancer, though it may also configure your
 edge router or additional frontends to help handle the traffic. Same rules as
-Nginx or Traefic can be applied to Ingress, meaning that traffic to a domain or a
-specific path can be redirect to the corresponding labelled service.
+Nginx or Traefic can be applied to Ingress, meaning that traffic to a domain or
+a specific path can be redirect to the corresponding labelled service.
 
 ![Ingress flow](../assets/img/k8s-ingress.png)
 
@@ -162,7 +163,9 @@ It a file that contains all sections for k8s.
 ## Volume
 
 It is a way to persist data. It is a directory that is accessible to containers.
-Volumes are exposed at pod level. By default, containers in a pod write to ephemeral storage (emptyDir), only available during the pod's lifecycle. Once pod is terminated, data is lost.
+Volumes are exposed at pod level. By default, containers in a pod write to
+ephemeral storage (emptyDir), only available during the pod's lifecycle. Once
+pod is terminated, data is lost.
 
 But we can attach Persistent volumes to pods which persist any data written to
 them. They are network attached storage, independent of pod's life. We can
@@ -265,7 +268,8 @@ Careful, when you stop minikube, context/namespace are set to null, so your kube
 commands won't be pointing to any context. You need to explicitly set again
 context.
 
-`minikube` command is just a proxy of `kubectl` commands, with a different command format but doing the same underneath.
+`minikube` command is just a proxy of `kubectl` commands, with a different
+command format but doing the same underneath.
 
 ## Readiness and liveness, startup probes
 

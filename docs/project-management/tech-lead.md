@@ -44,7 +44,8 @@ allowing to deliver new features faster.
 
 ### Code Comments
 
-Establish conventions to ensure comments are useful, improving engineering velocity and code quality.
+Establish conventions to ensure comments are useful, improving engineering
+velocity and code quality.
 
 - Managing and reducing technical debt
 - While TODO/FIXME are good for single player, but avoid using in teams. Use
@@ -78,8 +79,8 @@ Establish conventions to ensure comments are useful, improving engineering veloc
 
 - Deploying to production frequently.
 - SMall deployments.
-- Keep a relation of bugs per deployment. Are detected fast by the team or user? Are
-  fixed fast?
+- Keep a relation of bugs per deployment. Are detected fast by the team or user?
+  Are fixed fast?
 
 ## Motivation
 

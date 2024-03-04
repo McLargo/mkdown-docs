@@ -44,7 +44,11 @@ understanding the flow of requests in a microservices architecture.
 [Jaeger](https://www.jaegertracing.io/) is an open source end-to-end distributed
 system to help tracing request within the system.
 
-To implement server observability effectively, organizations often use specialized tools and platforms, such as monitoring and observability solutions like Prometheus, Grafana, Elasticsearch, Kibana, , and many others. These tools help in collecting, storing, analyzing, and visualizing the data needed to maintain and improve server performance and reliability.
+To implement server observability effectively, organizations often use
+specialized tools and platforms, such as monitoring and observability solutions
+like Prometheus, Grafana, Elasticsearch, Kibana, and many others. These tools
+help in collecting, storing, analyzing, and visualizing the data needed to
+maintain and improve server performance and reliability.
 
 ## References
 

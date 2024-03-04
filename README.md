@@ -21,9 +21,8 @@ Deploy mkdocs to github pages, from the submodule folder:
 
 `mkdocs gh-deploy --config-file ../mkdocs.yml --remote-branch master`
 
-> :warning: **Before deploying a new version of mkdocs for the first time in a new computer,
-> clone folder `mclargo.github.io` here!**
-
+> :warning: **Before deploying a new version of mkdocs for the first time in a
+> new computer, clone folder `mclargo.github.io` here!**
 
 ## Makefile
 

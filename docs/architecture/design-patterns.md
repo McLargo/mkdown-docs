@@ -6,7 +6,6 @@ design that can be transformed directly into code. It is a description or
 template for how to solve a problem that can be used in many different
 situations.
 
-
 ## Uses of design patterns
 
 Utilizing design patterns in the development process can accelerate progress by

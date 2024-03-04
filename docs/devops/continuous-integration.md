@@ -33,7 +33,8 @@ Run your tests automatically in each commits with a jenkins pipeline. Goal is to
 keep build green all the time, writing tests as part of the user stories and
 bugs. No merge is allowed if pipeline is not green.
 
-Keep good coverage of your code, at least 80% of your code should be covered by tests.
+Keep good coverage of your code, at least 80% of your code should be covered by
+tests.
 
 ## References
 

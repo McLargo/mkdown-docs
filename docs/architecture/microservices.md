@@ -1,10 +1,10 @@
 # Microservices
 
  It is architectural style that focuses on discrete services instead of a
- [monolithic design](../architecture/monolithic.md). Microservices architecture breaks down an
- application into smaller, independent services that each serve a specific
- business capability or function. These services are developed and deployed
- independently, often with their own codebase and database.
+ [monolithic design](../architecture/monolithic.md). Microservices architecture
+ breaks down an application into smaller, independent services that each serve a
+ specific business capability or function. These services are developed and
+ deployed independently, often with their own codebase and database.
 
 ## Principles
 

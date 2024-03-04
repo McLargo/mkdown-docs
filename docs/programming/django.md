@@ -31,7 +31,8 @@ if we want to test via shell, run:
 
 ## basic schema of django app
 
-A project can contains one or more apps. Also, an app can be used in several projects
+A project can contains one or more apps. Also, an app can be used in several
+projects.
 
 To create a new app in our project:
 
@@ -40,13 +41,15 @@ To create a new app in our project:
 New folder is created. It contains basic schema:
 
 `<app>/views.py`
-    represents the controller. One function per view. get data, processed it, and render template if needed
+    represents the controller. One function per view.
+    Get data, processed it, and render template if needed.
 
 `<app>/urls.py`
     where url is mapped to corresponding function in views file
 
 `<app>/models.py`
-    represent the models. Django use an ORM, that means, tables and database corresponds to Model classes.
+    represent the models. Django use an ORM, that means, tables and database
+    corresponds to Model classes.
 
 Add app configuration to `project/settings.py`:
 

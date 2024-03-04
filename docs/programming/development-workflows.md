@@ -38,10 +38,10 @@ production every single commit.
 Smaller commits allow faster code revision, and easier to revert changes if
 something wrong happens. Increases confidences in developers.
 
-Combine with [feature flags](../devops/features-toggles.md), where code can be in production but inactive to the
-final user. Bigger features are not separated for long time to master branch,
-reducing the risk of conflicts when merging. Almost daily merges to master are
-done, increasing agile release with CI/CD.
+Combine with [feature flags](../devops/features-toggles.md), where code can be
+in production but inactive to the final user. Bigger features are not separated
+for long time to master branch, reducing the risk of conflicts when merging.
+Almost daily merges to master are done, increasing agile release with CI/CD.
 
 ## References
 

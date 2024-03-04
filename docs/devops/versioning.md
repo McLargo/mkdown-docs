@@ -7,12 +7,12 @@ version must be tagged with an unique identifier.
 
 - **Major** - The first number in the version. 2 and 3 are Python's famous major
   versions. The major segment is the most common calendar-based component.
-- **Minor** - The second number in the version. 7 is the most popular minor version
-  of Python.
-- **Micro** - The third and usually final number in the version. Sometimes referred
-  to as the "patch" segment.
-- **Modifier** - An optional text tag, such as "dev", "alpha", "beta", "rc1", and so
-  on.
+- **Minor** - The second number in the version. 7 is the most popular minor
+  version of Python.
+- **Micro** - The third and usually final number in the version. Sometimes
+  referred to as the "patch" segment.
+- **Modifier** - An optional text tag, such as "dev", "alpha", "beta", "rc1",
+  and so on.
 
 ## Calendar versioning
 
