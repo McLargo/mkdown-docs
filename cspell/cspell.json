@@ -1,0 +1,10 @@
+{
+    "language": "en,lorem",
+    "dictionaryDefinitions": [
+        {
+            "name": "mkdocs-docs-dictionary",
+            "path": "./dictionaries/mkdocs-docs.txt"
+        }
+    ],
+    "dictionaries": ["mkdocs-docs-dictionary"]
+  }

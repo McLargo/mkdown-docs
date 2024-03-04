@@ -22,10 +22,11 @@ phase.
 
 ### Design
 
-The design phase of the waterfall process is best broken up into two subphases:
-logical design and physical design. The logical design subphase is when possible
-solutions are brainstormed and theorized. The physical design subphase is when
-those theoretical ideas and schemas are made into concrete specifications.
+The design phase of the waterfall process is best broken up into two sub-phases:
+logical design and physical design. The logical design sub-phase is when
+possible solutions are brainstormed and theorized. The physical design sub-phase
+is when those theoretical ideas and schemas are made into concrete
+specifications.
 
 ### Implementation
 

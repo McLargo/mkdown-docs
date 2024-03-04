@@ -35,7 +35,7 @@ rules are flexible to meet the needs of the project.
 When you are running python code, code is executing sequentially in the same
 process/thread. That means, process is blocked until code execution stopped. If
 another process enters, it acts like a queue. Until process 1 doesn't end,
-process 2 won't start execution. It caan causes performance problem, as if for
+process 2 won't start execution. It can causes performance problem, as if for
 any reason process 1 is waiting (db connection, external request...), during
 those milliseconds CPU is waiting doing nothing.
 

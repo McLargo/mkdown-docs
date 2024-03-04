@@ -115,7 +115,7 @@ The words `ha` and `haa` are grouped below. The first group is used by writing
 `\1` to avoid rewriting. Here 1 denotes the order of grouping. Type `\2` at the
 end of the expression to refer to the second group.
 
-### Non-capturing Groupping
+### Non-capturing Grouping
 
 Parentheses `(?: )`: Non-capturing Grouping
 
@@ -193,12 +193,12 @@ Except Space Character `\S`
 
 `\S` is used to find non-space characters.
 
-## Lookarounds
+## Lookaround
 
 If we want the phrase we're writing to come before or after another phrase, we
 need to "lookaround". Take the next step to learn how to "lookaround".
 
-### Lookarounds: Positive Lookahead
+### Lookaround: Positive Lookahead
 
 Positive Lookahead: `(?=)`
 
@@ -207,7 +207,7 @@ only the numerical values that have PM after them, we need to write the positive
 look-ahead expression `(?=)` after our expression. Include PM after the `=` sign
 inside the parentheses.
 
-### Lookarounds: Negative Lookahead
+### Lookaround: Negative Lookahead
 
 Negative Lookahead: `(?!)`
 
@@ -216,7 +216,7 @@ Therefore, we need to write the negative look-ahead `(?!)` expression after our
 expression to select only the numerical values that do not have PM after them.
 Include PM after the `!` sign inside the parentheses.
 
-### Lookarounds: Positive Lookbehind
+### Lookaround: Positive Lookbehind
 
 Positive Lookbehind: `(?<=)`
 
@@ -225,7 +225,7 @@ only the number values that preceded by `$`, we need to write the positive
 lookbehind expression `(?<=)` before our expression. Add `\$` after the `=` sign
 inside the brackets.
 
-### Lookarounds: Negative Lookbehind
+### Lookaround: Negative Lookbehind
 
 Negative Lookbehind: `(?<!)`
 
@@ -263,7 +263,7 @@ matches.
 In order to remove the case-sensitiveness of the expression we have written, we
 must activate the case-insensitive flag.
 
-`/i case insensitve`
+`/i case insensitive`
 
 ### Greedy Matching
 

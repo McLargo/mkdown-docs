@@ -79,7 +79,7 @@ More configuration available in the official k8s documentation.
 
 It is an extension of deployment. It is used to manage stateful applications.
 Name is stable, unique pod identifiers and DNS names. Also, possible to set
-Persistent Storage and one Persistent Volumen per VolumeClaim template. Stick to
+Persistent Storage and one Persistent Volume per VolumeClaim template. Stick to
 pod as long as the pod is declared.
 
 Pods created in asc order and deleted in desc order. It is possible to scale up,
@@ -99,7 +99,7 @@ Characteristics are:
 - Worker nodes, where the containers are running and application. They have cpu,
   memory to handle the application. Each of the have docker installed and
   **kubelet**, which mainly determine the url of the k8s cluster.
-- Control planes nodes: host the componentes that actually run k8s. like API
+- Control planes nodes: host the components that actually run k8s. like API
   server. Data stored is in etcd. Scheduler, determine where to run the pods.
   Controller manager, watch the state of the cluster and make changes to the
   cluster to match the desire state. Cloud controller manager, manage the
@@ -111,7 +111,7 @@ Traffic can happen in a cluster within a pod, pod to pod, service to pods and
 external to cluster.
 
 - within a pod: containers within a pod can connect to each other using
-  localhost. Containers share an IP address accesible throughout the cluster and
+  localhost. Containers share an IP address accessible throughout the cluster and
   share common port space.
 - pod to pod: each pod has a unique IP address, so they can communicate with
   each other. IP address are routable anywhere within the cluster. Not common
@@ -241,7 +241,7 @@ identify yourself as a particular user. There is a service account by default.
 Once a user is authenticated, we need to authorize the user to perform actions.
 
 a Role is a collection of permissions (rules). Roles **are namespace specific**.
-We can asigne rules to groups, and users belongs to groups. A more flexible way
+We can assign rules to groups, and users belongs to groups. A more flexible way
 to assign rules.
 
 With ClusterRole, we can assign rules to cluster-wide resources instead to
@@ -262,7 +262,7 @@ Windows. Easy to install and start working.
 Install and run minikube to have a local cluster for k8s in local. If minikube
 is running, automatically context/namespace is updated to use then one's from
 minikube. If you are working with other k8s cluster, keep in mind this change.
-Always doble-check for namespace or context before deploying to the cluster. To
+Always double-check for namespace or context before deploying to the cluster. To
 work with cluster outside local, either you stop minikube or change namespace.
 Careful, when you stop minikube, context/namespace are set to null, so your kube
 commands won't be pointing to any context. You need to explicitly set again

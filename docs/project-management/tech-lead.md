@@ -52,8 +52,8 @@ velocity and code quality.
   them to aid your personal code development process and never push them to main
   code base branch.
 - Focus on the **why**.
-- Provide context and explain the intent of the code in clases or methods ([docs
-  strings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html))
+- Provide context and explain the intent of the code in classes or methods
+  ([docs strings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html))
 - Avoid obvious comments.
 
 ### Provide architectural and design direction

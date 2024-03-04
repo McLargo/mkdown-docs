@@ -7,7 +7,7 @@ second, execute: `poetry install`.
 
 After initialize the project, run to enter the virtualenv: `poetry shell`.
 
-To add new mdkocs as a dependency, run: `poetry add mkdocs`
+To add new mkdocs as a dependency, run: `poetry add mkdocs`
 
 Commands to use on mkdocs are:
 

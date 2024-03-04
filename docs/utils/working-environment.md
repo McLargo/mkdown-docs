@@ -13,7 +13,7 @@ Inside, create following structure:
   one to one... folder for Company. Store date in the name of the file, such as
   `meeting-20XX-XX-XX.md`
 - `mkdir $HOME/work/projects/<project-name>`: One extra folder for each project.
-  Some common subfolders may be: `scripts`, `documents`, `sublime`
+  Some common subfolder may be: `scripts`, `documents`, `sublime`
 - `mkdir $HOME/work/utils`: to store programs, binary, or other packages
 
 ## References

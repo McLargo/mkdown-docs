@@ -26,7 +26,7 @@ The ScrumMaster is not a manager, but a facilitator.
 
 The Product Owner is the keeper of the requirements. The Product Owner provides
 the "single source of truth" for the Team, regarding requirements and their
-planned order of implementation. Also, in charge to determine the objetive of
+planned order of implementation. Also, in charge to determine the objective, of
 the sprint.
 
 ### Team
@@ -141,13 +141,13 @@ Product Backlog, for sequencing and scheduling.
 
 ### Sprint
 
-Fixed time duration to accomplish an agreed objetive with value by the Team,
+Fixed time duration to accomplish an agreed objective, with value by the Team,
 which can be potentially be deliver to production/final stage. Usually 2 weeks.
 
 ### Story Points
 
 Measurement of effort of a certain Story. experience, complexity and load of
-work are taken into account. It must be taken by the Team. Objetive is to have
+work are taken into account. It must be taken by the Team. Objective, is to have
 an agreement of the effort of the Story. TL usually explain task to the team,
 doubts are solved. TL is not the one who decided, but Team. Notes are taken.
 Once is clear, values from a Fibonacci sequence are assigned to the Story. 1, 2,

@@ -54,7 +54,7 @@ nav:
     - C4 Model: project-management/c4-model.md
     - SCRUM: project-management/scrum.md
     - Technical Leader: project-management/tech-lead.md
-    - Waterfall Methodoloy: project-management/waterfall-methodology.md
+    - Waterfall Methodology: project-management/waterfall-methodology.md
     - Work Remotely: project-management/work-remotely.md
   - Utils:
     - Daemon: utils/daemon.md

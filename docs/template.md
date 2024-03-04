@@ -27,4 +27,4 @@ culpa qui officia deserunt mollit anim id est laborum.
 
 ## References
 
-- [Lorem impsum](https://lipsum.com/)
+- [Lorem ipsum](https://lipsum.com/)

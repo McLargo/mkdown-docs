@@ -10,8 +10,8 @@ accept it (team will be afraid of make any changes they don't understand) or
 blindly change it (project can be damage or have side effects). With these
 documents included inside the project, makes them easier to related and
 maintain. These documents needs to be simply (low effort is put, but very
-agile), and devs don't get lazy to create them. Help onboarding people to get up
-to speed in a asynchronous way.
+agile), and developers don't get lazy to create them. Help onboarding people to
+get up to speed in a asynchronous way.
 
 A missing decision can be identify during PR review, when new patter/library is
 added without corresponding ADR document. Even enough small decisions can
