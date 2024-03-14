@@ -15,6 +15,7 @@ install: ## Install required dependencies
 	@if [ -z $(POETRY) ]; then \
 		echo "Poetry could not be found, installing..."; \
 		$(PIP) install poetry; \
+		poetry install; \
 	else \
 		poetry install; \
 	fi

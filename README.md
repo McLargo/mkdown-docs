@@ -1,15 +1,24 @@
-# How to install mkdown-docs
+# Mkdown docs
 
-You can install `mkdocs` locally via pip: `pip install mkdocs`
+This repository contains the source code for my technical wiki, built using
+mkdocs. Not only contains the documentation, but also the tools to build and
+deploy online to [github pages](https://mclargo.github.io/).
 
-In my case, I installed using `poetry`. First time, execute: `poetry init`. If
-second, execute: `poetry install`.
+## Makefile
+
+`make` commands available for easy usage of mkdocs cli.
+Run `make` or `make help` for extra support.
+
+## Development usage
+
+Dependencies are manger using `poetry`. To initialize the project for the
+execute: `poetry install`.
 
 After initialize the project, run to enter the virtualenv: `poetry shell`.
 
 To add new mkdocs as a dependency, run: `poetry add mkdocs`
 
-Commands to use on mkdocs are:
+Once mkdocs installed, you can use the following commands:
 
 ```bash
 mkdocs new my-mkdocs-project
@@ -17,17 +26,12 @@ mkdocs build --clean
 mkdocs serve
 ```
 
-Deploy mkdocs to github pages, from the submodule folder:
+To deploy mkdocs to github pages, run the command from the submodule folder:
 
 `mkdocs gh-deploy --config-file ../mkdocs.yml --remote-branch master`
 
 > :warning: **Before deploying a new version of mkdocs for the first time in a
 > new computer, clone folder `mclargo.github.io` here!**
-
-## Makefile
-
-`make` commands available for easy usage of mkdocs cli explained above.
-Run `make` or `make help` for extra support.
 
 ## References
 
