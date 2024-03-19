@@ -47,11 +47,37 @@ code order is respected.
 Async works when there are many execution of the same code, each goes to a
 different thread inside the same process/CPU.
 
+## Testing
+
+python code supports [testing](../utils/testing.md) under the hook. `unittest`
+is the standard library, but there are others such as `pytest`.
+
+### pytest
+
+`pytest` is a library that makes it easy to write simple tests. It has different
+plugins for the most popular frameworks, such as Django or Flask that can help
+you keep the same testing pattern across different projects.
+
+- Simplify the process of set up and tear down with the use of fixtures.
+- Supports `assert` statements, which makes it easier to write tests.
+- Supports marking tests with different attributes, such as `@pytest.mark.skip`
+  or `@pytest.mark.e2e`, which makes it easier to run groups of tests.
+
+### Other testing libraries
+
+- [mutmut](https://github.com/boxed/mutmut): mutation testing to help you enrich
+  your tests.
+- [Hypothesis](https://hypothesis.readthedocs.io/en/latest/): generates random
+  data to test your code.
+- [polyfactory](https://pypi.org/project/polyfactory/): library to generate
+  mocks with random data for dataclasses, pydantic models...
+
 ## References
 
 - [Python](https://www.python.org/)
 - [Python introduction](https://www.udacity.com/course/introduction-to-python--ud1110)
 - [Learn python](https://learnxinyminutes.com/docs/python/)
 - [Online Python exercises](https://www.hackerrank.com/domains/python)
-- [My python lessons](https://github.com/McLargo/python-lessons)
+- [My python lessons](https://mclargo.github.io/python-lessons/)
 - [Sample of async vs sync](https://realpython.com/async-io-python/#the-asyncio-package-and-asyncawait)
+- [pytest plugin list](https://docs.pytest.org/en/latest/reference/plugin_list.html)

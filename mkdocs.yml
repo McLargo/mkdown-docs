@@ -12,7 +12,7 @@ theme:
   locale: en
 
 extra:
-  version: 2023.09
+  version: 2024.03
 
 extra_css:
   - assets/css/extra.css
@@ -66,7 +66,8 @@ nav:
     - Regex: utils/regex.md
     - Supervisor: utils/supervisor.md
     - Transmission: utils/transmission.md
+    - Testing: utils/testing.md
     - Ubuntu: utils/ubuntu.md
     - Working environment: utils/working-environment.md
 
-copyright: Copyright &copy; 2023 <a href="https://github.com/McLargo">Javier Gil</a>.
+copyright: Copyright &copy; 2024 <a href="https://github.com/McLargo">Javier Gil</a>.

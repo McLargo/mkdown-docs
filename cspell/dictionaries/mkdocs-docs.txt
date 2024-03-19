@@ -3,6 +3,7 @@ charsets
 cheatsheet
 cheatsheets
 creational
+dataclasses
 disponiblity
 distro
 fastapi
@@ -23,12 +24,15 @@ markdownlint
 mclargo
 mkdocs
 mkdown
+mutmut
 MVVM
+polyfactory
 psql
 Pydantic
 pydoc
 pylint
 pyproject
+pytest
 routable
 runme
 Serveless
