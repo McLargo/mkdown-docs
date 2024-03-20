@@ -33,6 +33,7 @@ pydoc
 pylint
 pyproject
 pytest
+Quastor
 routable
 runme
 Serveless
