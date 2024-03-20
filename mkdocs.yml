@@ -66,6 +66,7 @@ nav:
     - IDE: utils/ide.md
     - Regex: utils/regex.md
     - Supervisor: utils/supervisor.md
+    - Task runner: utils/task-runner.md
     - Transmission: utils/transmission.md
     - Testing: utils/testing.md
     - Ubuntu: utils/ubuntu.md
