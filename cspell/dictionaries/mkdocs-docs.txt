@@ -11,6 +11,7 @@ Firestore
 Fluentd
 frontends
 Gantt
+goroutines
 highlightjs
 hljs
 infiscal

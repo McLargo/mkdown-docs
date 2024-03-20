@@ -48,6 +48,7 @@ nav:
     - Django: programming/django.md
     - FastApi: programming/fastapi.md
     - Flask: programming/flask.md
+    - Golang: programming/golang.md
     - OpenAPI Specification: programming/openapi.md
     - Python: programming/python.md
     - SQLAlchemy: programming/sqlalchemy.md
