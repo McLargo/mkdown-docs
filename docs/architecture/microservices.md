@@ -84,6 +84,21 @@ result in more complex service discovery and network traffic management.
 
 ![Choreography](../assets/img/choreography.png)
 
+## Architecture styles
+
+Services in a microservice architecture needs to communicate between each other.
+There are different architectural styles to achieve this communication:
+
+- [REST](./rest.md): Representational State Transfer is an architectural
+  style that uses standard HTTP methods (GET, POST, PUT, DELETE) to interact
+  with resources. RESTful services are stateless, meaning that each request from
+  a client contains all the information needed to process the request. REST is
+  simple to understand and implement, and it can be used over any protocol that
+  supports request/response semantics.
+
+- RPC: Remote Procedure Call is a protocol that allows a program to execute code
+  on a remote server. A popular RPC framework is [gRPC](./grpc.md).
+
 ## References
 
 - [Orchestration vs choreography](https://www.accionlabs.com/microservices-orchestration-vs-choreography-what-to-prefer)

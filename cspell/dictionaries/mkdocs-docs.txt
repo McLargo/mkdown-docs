@@ -28,6 +28,8 @@ mkdown
 mutmut
 MVVM
 polyfactory
+proto
+protobuf
 psql
 Pydantic
 pydoc

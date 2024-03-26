@@ -22,7 +22,6 @@ plugins:
 
 nav:
   - Architecture:
-    - API Design: architecture/api-design.md
     - Architecture Decision Records: architecture/architecture-decision-record.md
     - Asynchronous messaging: architecture/asynchronous-messaging.md
     - Database Patterns: architecture/database-patterns.md
@@ -31,6 +30,7 @@ nav:
     - gRPC: architecture/grpc.md
     - Microservices: architecture/microservices.md
     - Monolithic Architecture: architecture/monolithic.md
+    - REST: architecture/rest.md
     - Service Mesh: architecture/service-mesh.md
     - Solid Principles: architecture/solid.md
   - DevOps:
