@@ -1,10 +1,11 @@
 # Databases
 
-## PostgreSQL
+## Relational databases
 
-Relational database, similar to MySql. Once installed, run `psql` to access via
-command line to the instances. An instance of postgresql can have multiple
-databases.
+### PostgreSQL
+
+Similar to MySql. Once installed, run `psql` to access via command line to the
+instances. An instance of postgresql can have multiple databases.
 
 Another interesting command is `pg_dump`, it helps you to generate a backup of
 your tables into a .sql file.
@@ -18,7 +19,7 @@ Connection options:
   -W, --password           force password prompt (should happen automatically)
 ```
 
-## Google cloud SQL
+### Google cloud SQL
 
 From Google cloud you can create an instance of mysql/postgres for you desire
 database. You can connect via socket or url to database. Online configuration,
@@ -27,9 +28,37 @@ require code changes.
 In addition, you can have a connection using the
 [Cloud SQL Auth proxy](https://cloud.google.com/sql/docs/postgres/connect-admin-proxy)
 
-## Firestore
+## Non-relational databases
+
+### Firestore
 
 NoSQL database from Google cloud. python libraries to use and access documents.
+
+## Graphs databases
+
+Graphs are a very popular way of representing relationships and connections
+within your data.
+
+They’re composed of two main components:
+
+- **Vertices** : These represent entities/nodes in your data.
+- **Edges** : These represent connections between entities/nodes.
+
+Graph databases are particularly useful when you have a lot of relationships,
+because its faster processing of relationships: each node has direct references
+to its neighbors, so you don’t need to scan the entire dataset to find
+relationships.
+
+It also allows you to perform complex queries in a more natural way, thanks to
+graph query language such as Cypher.
+
+### Neo4j
+
+Neo4j is a popular graph database that uses the Cypher query language to
+interact with the database.
+
+Your data is stored without restricting it to a pre-defined model, allowing a
+very flexible way of thinking about and using it.
 
 ## References
 
@@ -40,3 +69,4 @@ NoSQL database from Google cloud. python libraries to use and access documents.
 - [MongoDB](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c#file-mongodb-md)
 - [Google Cloud Postgres](https://cloud.google.com/sql/docs/postgres)
 - [Firestore](https://firebase.google.com/docs/firestore)
+- [Neo4j](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c#file-neo4j-md)
