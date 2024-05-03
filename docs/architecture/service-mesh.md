@@ -1,4 +1,4 @@
-# Service mesh
+# Service Mesh
 
 A service mesh is an infrastructure layer that handles communication between the
 microservices/machines in your backend.

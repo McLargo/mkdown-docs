@@ -1,4 +1,4 @@
-# Data storage
+# Data Storage
 
 Data storage is the process of storing data in persistent storage systems,
 usually huge amounts of data for long periods of time. Data can be originated in

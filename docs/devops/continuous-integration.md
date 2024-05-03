@@ -1,4 +1,4 @@
-# Continuous integration
+# Continuous Integration
 
 Continuous integration (CI) is an agile and DevOps best practice where
 developers integrate their code changes early and often to the main branch or

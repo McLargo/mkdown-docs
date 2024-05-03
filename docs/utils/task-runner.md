@@ -1,4 +1,4 @@
-# Task runner
+# Task Runner
 
 A task runner is a tool that automates and simplify the execution of repetitive
 tasks. It is a command-line tool that can be used to run tasks defined in a

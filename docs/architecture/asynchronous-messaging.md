@@ -1,4 +1,4 @@
-# Asynchronous messaging
+# Asynchronous Messaging
 
 An asynchronous messaging system is a system that allows communication between
 two or more parties without the need for the sender to wait for the receiver to

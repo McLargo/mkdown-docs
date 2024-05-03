@@ -1,4 +1,4 @@
-# Technical leader
+# Technical Leader
 
 The job of a tech lead is to make sure the team work with quality. Part of this
 job is to plan, design, learn and execute technical solutions and improvements.

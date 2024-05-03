@@ -11,7 +11,9 @@ Installation by default on [my .dotfiles](../ubuntu/#dotfiles)
 
 ## VS Code
 
-New, popular and complete. Let's give it a try to this IDE.
+VS Code is the perfect IDE for web development. It has a lot of plugins,
+customizable themes, and a lot of features. It can be used for other languages,
+it includes a terminal, and it is very fast.
 
 ## References
 

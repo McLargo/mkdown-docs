@@ -1,4 +1,4 @@
-# Work remotely
+# Work Remotely
 
 In modern world, and specially after COVID-19 pandemic, work remotely is a
 reality for IT sector. Luckily, I have been working in companies with high

@@ -1,4 +1,4 @@
-# Waterfall methodology
+# Waterfall Methodology
 
 [Waterfall methodology](https://www.projectmanager.com/guides/waterfall-methodology)
 is a linear project management, when requirements are defined at beginning. Task

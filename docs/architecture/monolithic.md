@@ -1,4 +1,4 @@
-# Monolithic architecture
+# Monolithic Architecture
 
  In a monolithic architecture, the entire application is built as a single,
  tightly integrated unit. All components, modules, and functionalities are part

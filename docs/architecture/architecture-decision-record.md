@@ -1,4 +1,4 @@
-# Architecture decision record
+# Architecture Decision Record
 
 Usually, decision on a project are made verbally, or during a discussion in
 chat/email, across few people (colleagues, customer...) inside a context. If we

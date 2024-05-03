@@ -1,4 +1,4 @@
-# Conventional commits
+# Conventional Commits
 
 Conventional Commits is a generic convention of writing commit messages. It
 provides a set of simple rules for creating new commits, easier to automate

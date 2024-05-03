@@ -24,8 +24,8 @@ nav:
   - Architecture:
     - API Gateway: architecture/api-gateway.md
     - Architecture Decision Records: architecture/architecture-decision-record.md
-    - Asynchronous messaging: architecture/asynchronous-messaging.md
-    - Data storage: architecture/data-storage.md
+    - Asynchronous Messaging: architecture/asynchronous-messaging.md
+    - Data Storage: architecture/data-storage.md
     - Database Patterns: architecture/database-patterns.md
     - Design Patterns: architecture/design-patterns.md
     - Event Driven: architecture/event-driven.md
@@ -36,7 +36,7 @@ nav:
     - Service Mesh: architecture/service-mesh.md
     - Solid Principles: architecture/solid.md
   - DevOps:
-    - Continuous integration: devops/continuous-integration.md
+    - Continuous Integration: devops/continuous-integration.md
     - Docker: devops/docker.md
     - Features Toggles: devops/features-toggles.md
     - Helm Charts: devops/helm.md
@@ -45,20 +45,20 @@ nav:
     - Serverless Computing: devops/serverless.md
     - Versioning: devops/versioning.md
   - Programming:
-    - Conventional commits: programming/conventional-commits.md
-    - Development workflows: programming/development-workflows.md
+    - Conventional Commits: programming/conventional-commits.md
+    - Development Workflows: programming/development-workflows.md
     - Django: programming/django.md
     - FastApi: programming/fastapi.md
     - Flask: programming/flask.md
     - Golang: programming/golang.md
-    - Machine learning: programming/machine-learning.md
+    - Machine Learning: programming/machine-learning.md
     - OpenAPI Specification: programming/openapi.md
     - Python: programming/python.md
     - SQLAlchemy: programming/sqlalchemy.md
     - Virtualenvs: programming/virtualenvs.md
   - Project Management:
     - C4 Model: project-management/c4-model.md
-    - Diagram flows: project-management/diagram-flows.md
+    - Diagram Flows: project-management/diagram-flows.md
     - SCRUM: project-management/scrum.md
     - Technical Leader: project-management/tech-lead.md
     - Waterfall Methodology: project-management/waterfall-methodology.md
@@ -73,6 +73,6 @@ nav:
     - Transmission: utils/transmission.md
     - Testing: utils/testing.md
     - Ubuntu: utils/ubuntu.md
-    - Working environment: utils/working-environment.md
+    - Working Environment: utils/working-environment.md
 
 copyright: Copyright &copy; 2024 <a href="https://github.com/McLargo">Javier Gil</a>.

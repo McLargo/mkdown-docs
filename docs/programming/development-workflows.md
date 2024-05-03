@@ -1,4 +1,4 @@
-# Development workflows
+# Development Workflows
 
 Version control system is a must for any serious software development. It allows
 you to track changes in your code, collaborate with other developers and easily

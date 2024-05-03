@@ -1,4 +1,4 @@
-# Machine learning
+# Machine Learning
 
 ## Input data
 

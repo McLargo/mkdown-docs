@@ -1,4 +1,4 @@
-# Diagram flows
+# Diagram Flows
 
 Diagram flows are used to represent the flow of a process. It is a visual
 representation of the steps and decisions that are made in a process, specially

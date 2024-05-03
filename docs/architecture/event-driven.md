@@ -1,4 +1,4 @@
-# Event-driven architecture
+# Event-driven Architecture
 
 Generally speaking, a microservice architecture needs that services talk to each
 other. No matter what approach is used, if

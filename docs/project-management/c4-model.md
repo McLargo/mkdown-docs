@@ -1,4 +1,4 @@
-# C4 model
+# C4 Model
 
 [C4 model](https://c4model.com/) represents different diagrams for different
 roles working together for the same ecosystem. Not everyone needs the same level
