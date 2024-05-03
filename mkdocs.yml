@@ -25,6 +25,7 @@ nav:
     - API Gateway: architecture/api-gateway.md
     - Architecture Decision Records: architecture/architecture-decision-record.md
     - Asynchronous messaging: architecture/asynchronous-messaging.md
+    - Data storage: architecture/data-storage.md
     - Database Patterns: architecture/database-patterns.md
     - Design Patterns: architecture/design-patterns.md
     - Event Driven: architecture/event-driven.md
@@ -50,6 +51,7 @@ nav:
     - FastApi: programming/fastapi.md
     - Flask: programming/flask.md
     - Golang: programming/golang.md
+    - Machine learning: programming/machine-learning.md
     - OpenAPI Specification: programming/openapi.md
     - Python: programming/python.md
     - SQLAlchemy: programming/sqlalchemy.md

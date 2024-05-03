@@ -60,6 +60,29 @@ interact with the database.
 Your data is stored without restricting it to a pre-defined model, allowing a
 very flexible way of thinking about and using it.
 
+## Columnar Databases
+
+Columnar databases store data tables by column rather than by row, where the
+values of a data column are serialized together.
+
+By storing data in columns rather than rows, the database can more precisely
+access the data it needs to answer a query rather than scanning and discarding
+unwanted data in rows. Popular in
+[data warehousing](../architecture/data-storage.md) and
+[machine learning](../programming/machine-learning.md).
+
+Some columnar databases are:
+
+- [Big Query](https://cloud.google.com/bigquery/docs/storage_overview)
+- [Snowflake](https://docs.snowflake.com/en/user-guide/intro-key-concepts#database-storage).
+
+Columnar database have a series of advantages:
+
+- Compression: Columnar databases can compress data more effectively than
+  row-based databases because similar data is stored together.
+- Batch transactions.
+- Complex query over data.
+
 ## References
 
 - [Database 101](https://thomaslarock.com/2018/07/databases-101/)
