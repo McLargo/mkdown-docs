@@ -21,7 +21,7 @@ install: ## Install required dependencies
 	fi
 
 	$(PIP) install pre-commit;
-	pre-commit install
+	pre-commit install --hook-type pre-commit --hook-type pre-push
 
 serve: ## Serve mkdocs in local
 	poetry run mkdocs serve --strict
