@@ -35,6 +35,7 @@ nav:
     - REST: architecture/rest.md
     - Service Mesh: architecture/service-mesh.md
     - Solid Principles: architecture/solid.md
+    - State Patter: architecture/state-pattern.md
     - Websocket: architecture/websocket.md
   - DevOps:
     - Continuous Integration: devops/continuous-integration.md
