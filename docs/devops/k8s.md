@@ -66,8 +66,8 @@ Two type of strategies:
 - Recreate: remove all existing pods in the existing ReplicaSet before creating
   new ones from new ReplicaSet.
 
-Also, it is possible to configure another different deployment strategies as
-canary releases and blue/green.
+Also, it is possible to configure another different
+[deployment strategies](../devops/deployment-strategies.md).
 
 In a deployment, each endpoint is the IP address of a pod that is backing that
 service. In case of multiple replicas, we should see 1 endpoint for each pod

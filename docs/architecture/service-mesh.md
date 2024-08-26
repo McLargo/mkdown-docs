@@ -28,8 +28,8 @@ microservices.
   authentication and, authorization from service to service. Also you can set
   limits on which services can talk to each other.
 
-- Deployment: the service mesh can provide features such as canary deployments,
-  A/B deployments, etc.
+- Deployment: the service mesh can provide features such as [canary deployments](../devops/deployment-strategies.md#canary-deployment),
+  [A/B deployments](../devops/deployment-strategies.md#ab-testing), etc.
 
 ## Architecture
 

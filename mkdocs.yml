@@ -39,6 +39,7 @@ nav:
     - Websocket: architecture/websocket.md
   - DevOps:
     - Continuous Integration: devops/continuous-integration.md
+    - Deployment Strategies: devops/deployment-strategies.md
     - Docker: devops/docker.md
     - Features Toggles: devops/features-toggles.md
     - Helm Charts: devops/helm.md

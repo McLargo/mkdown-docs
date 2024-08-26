@@ -18,7 +18,10 @@ the picture. It could be something fancy with an UI, or much simple. But the
 idea is to change dynamically those values. Stored in memory, config,
 database... whatever suits you.
 
-Enables many other release feature, like canary release, A/B testing...
+Enables many other release feature and deployment strategies, like
+[canary releases](../devops/deployment-strategies.md#canary-deployment),
+[blue/green](../devops/deployment-strategies.md#blue-green-deployment) or
+[A/B testing](../devops/deployment-strategies.md#ab-testing).
 
 ## When to use features flags
 
