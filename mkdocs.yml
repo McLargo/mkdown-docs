@@ -23,6 +23,7 @@ plugins:
 nav:
   - Architecture:
     - API Gateway: architecture/api-gateway.md
+    - Architecture Patterns: architecture/architecture-patterns.md
     - Architecture Decision Records: architecture/architecture-decision-record.md
     - Asynchronous Messaging: architecture/asynchronous-messaging.md
     - Data Storage: architecture/data-storage.md

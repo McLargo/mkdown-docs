@@ -5,3 +5,11 @@ body{
 .wm-top-version{
     font-size:9pt;
 }
+
+img {
+    display: block!important;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
