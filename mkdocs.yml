@@ -45,6 +45,7 @@ nav:
     - Features Toggles: devops/features-toggles.md
     - Helm Charts: devops/helm.md
     - Kubernetes: devops/k8s.md
+    - Load Shedding: devops/load-shedding.md
     - Observability: devops/observability.md
     - Serverless Computing: devops/serverless.md
     - Versioning: devops/versioning.md
