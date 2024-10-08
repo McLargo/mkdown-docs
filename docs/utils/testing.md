@@ -102,7 +102,7 @@ patch that part of the system to avoid the bottleneck.
 
 Test the system's reaction to sudden and extreme changes in load.
 
-## Reference
+## References
 
 - [Testing in python](https://testdriven.io/blog/testing-python/)
 - [Load testing](https://www.raullg.com/que-es-el-load-testing/)

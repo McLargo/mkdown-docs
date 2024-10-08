@@ -11,7 +11,7 @@ Golang or commonly known as Go, it is a programming language designed by Google.
   and channels to achieve this. You need to give a little bit of thought how you
   program your code.
 
-## Reference
+## References
 
 - [Golang official website](https://golang.org/)
 - [Go live reload](https://github.com/cosmtrek/air)

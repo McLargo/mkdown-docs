@@ -10,7 +10,7 @@ Uses pydantic for models, for data validations.
 Support [async](../python#async) by default too, enriching performance even
 faster. Careful when using async + DB.
 
-## Reference
+## References
 
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [Pydantic models](https://pydantic-docs.helpmanual.io/usage/models/)
