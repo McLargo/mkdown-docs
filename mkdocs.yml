@@ -49,6 +49,11 @@ nav:
     - Observability: devops/observability.md
     - Serverless Computing: devops/serverless.md
     - Versioning: devops/versioning.md
+  - Machine Learning:
+    - Algorithms: machine-learning/algorithms.md
+    - Deep Learning: machine-learning/deep-learning.md
+    - Fundamentals: machine-learning/fundamentals.md
+    - Input Data: machine-learning/input-data.md
   - Programming:
     - Conventional Commits: programming/conventional-commits.md
     - Development Workflows: programming/development-workflows.md
@@ -56,7 +61,6 @@ nav:
     - FastApi: programming/fastapi.md
     - Flask: programming/flask.md
     - Golang: programming/golang.md
-    - Machine Learning: programming/machine-learning.md
     - OpenAPI Specification: programming/openapi.md
     - Python: programming/python.md
     - SQLAlchemy: programming/sqlalchemy.md

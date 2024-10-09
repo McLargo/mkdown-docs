@@ -60,3 +60,10 @@ runserver
 sqlmigrate
 startapp
 startproject
+
+# machine learning
+backpropagation
+inferencing
+Multinomial
+RMSE
+softmax

@@ -69,7 +69,7 @@ By storing data in columns rather than rows, the database can more precisely
 access the data it needs to answer a query rather than scanning and discarding
 unwanted data in rows. Popular in
 [data warehousing](../architecture/data-storage.md) and
-[machine learning](../programming/machine-learning.md).
+[machine learning](../machine-learning/fundamentals.md).
 
 Some columnar databases are:
 
