@@ -12,7 +12,7 @@ theme:
   locale: en
 
 extra:
-  version: 2024.03
+  version: 2025.02
 
 extra_css:
   - assets/css/extra.css
@@ -85,4 +85,4 @@ nav:
     - Ubuntu: utils/ubuntu.md
     - Working Environment: utils/working-environment.md
 
-copyright: Copyright &copy; 2024 <a href="https://github.com/McLargo">Javier Gil</a>.
+copyright: Copyright &copy; 2025 <a href="https://github.com/McLargo">Javier Gil</a>.
