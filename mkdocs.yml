@@ -22,6 +22,7 @@ plugins:
 
 nav:
   - Architecture:
+    - Adaptive Bitrate Streaming: architecture/abs.md
     - API Gateway: architecture/api-gateway.md
     - Architecture Patterns: architecture/architecture-patterns.md
     - Architecture Decision Records: architecture/architecture-decision-record.md

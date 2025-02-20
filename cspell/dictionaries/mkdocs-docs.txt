@@ -1,5 +1,6 @@
 abstractmethod
 Asyncio
+bitrates
 charsets
 cheatsheet
 cheatsheets
