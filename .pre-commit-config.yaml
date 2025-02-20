@@ -1,25 +1,25 @@
-    exclude: ".git"
+exclude: ".git"
 
-    repos:
-      - repo: https://github.com/igorshubovych/markdownlint-cli
-        rev: v0.39.0
-        hooks:
-        - id: markdownlint
-          stages: [commit]
-          args:
-            - "docs/*"
+repos:
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.39.0
+    hooks:
+    - id: markdownlint
+      stages: [pre-commit]
+      args:
+        - "docs/*"
 
-      - repo: https://github.com/streetsidesoftware/cspell-cli
-        rev: v8.4.0
-        hooks:
-        - id: cspell
-          stages: [commit]
-          args: ["-c", "./cspell/cspell.json", "--show-suggestions"]
+  - repo: https://github.com/streetsidesoftware/cspell-cli
+    rev: v8.4.0
+    hooks:
+    - id: cspell
+      stages: [pre-commit]
+      args: ["-c", "./cspell/cspell.json", "--show-suggestions"]
 
-      - repo: local
-        hooks:
-        - id: mkdocs-build
-          stages: [push]
-          name: mkdocs-build
-          entry: bash -c 'make build'
-          language: system
+  - repo: local
+    hooks:
+    - id: mkdocs-build
+      stages: [pre-push]
+      name: mkdocs-build
+      entry: bash -c 'make build'
+      language: system
