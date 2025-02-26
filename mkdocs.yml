@@ -27,6 +27,7 @@ nav:
     - Architecture Patterns: architecture/architecture-patterns.md
     - Architecture Decision Records: architecture/architecture-decision-record.md
     - Asynchronous Messaging: architecture/asynchronous-messaging.md
+    - Concurrency patterns: architecture/concurrency-patterns.md
     - Data Storage: architecture/data-storage.md
     - Database Patterns: architecture/database-patterns.md
     - Design Patterns: architecture/design-patterns.md
