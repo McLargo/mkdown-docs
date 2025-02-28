@@ -38,5 +38,6 @@ One should depend upon abstractions, not concretions.
 
 ## References
 
-- [Skteches for the SOLID principles](https://okso.app/showcase/solid)
+- [Sketches for the SOLID principles](https://okso.app/showcase/solid)
 - [Writing code with SOLID](https://forreya.medium.com/the-solid-principles-writing-scalable-maintainable-code-13040ada3bca)
+- [SOLID in Golang](https://blog.stackademic.com/mastering-solid-principles-with-go-examples-71db32b8c990)
