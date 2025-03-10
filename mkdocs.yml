@@ -76,6 +76,7 @@ nav:
     - Work Remotely: project-management/work-remotely.md
   - Utils:
     - Daemon: utils/daemon.md
+    - Database table indexes: utils/db-table-indexes.md
     - Databases: utils/databases.md
     - IDE: utils/ide.md
     - Regex: utils/regex.md
