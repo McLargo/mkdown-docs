@@ -3,16 +3,23 @@
 Versioning releases is important to handle dependencies with new code. Each
 version must be tagged with an unique identifier.
 
-## Common versioning
+## Semantic versioning
 
-- **Major** - The first number in the version. 2 and 3 are Python's famous major
-  versions. The major segment is the most common calendar-based component.
-- **Minor** - The second number in the version. 7 is the most popular minor
-  version of Python.
-- **Micro** - The third and usually final number in the version. Sometimes
-  referred to as the "patch" segment.
-- **Modifier** - An optional text tag, such as "dev", "alpha", "beta", "rc1",
-  and so on.
+Semantic versioning is a standard for versioning software. It is based on three
+numbers separated by dots: `MAJOR.MINOR.PATCH`. The version number is increased
+when:
+
+- **Major** - Breaking changes are introduced.
+- **Minor** - New features are added in a backwards-compatible manner.
+- **Patch** - Backwards-compatible bug fixes are introduced.
+
+Additional labels can be added to the version number, such as "dev", "alpha",
+"beta", "rc1", and so on.
+
+Usually , you can start from `0.1.0` and increment the version number as you
+develop the software. When you are ready to release the first stable version,
+you can change the version number to `1.0.0`, and follow the semantic versioning
+rules from there.
 
 ## Calendar versioning
 
@@ -26,8 +33,7 @@ version must be tagged with an unique identifier.
 - **DD** - Short day - 1, 2 ... 30, 31
 - **0D** - Zero-padded day - 01, 02 ... 30, 31
 
-For reference, both versioning can be mixed.
-
 ## References
 
+- [Semantic versioning](https://semver.org/)
 - [Calendar versioning](https://calver.org/)
