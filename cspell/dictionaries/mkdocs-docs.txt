@@ -1,9 +1,11 @@
 abstractmethod
 Asyncio
+BentoML
 bitrates
 charsets
 cheatsheet
 cheatsheets
+covariate
 creational
 dataclasses
 disponiblity
@@ -16,7 +18,9 @@ Gantt
 goroutines
 highlightjs
 hljs
+hyperparameters
 infiscal
+interpretability
 Istio
 kubec
 kubeconfig
@@ -27,8 +31,10 @@ markdownlint
 mclargo
 mkdocs
 mkdown
+MLFlow
 mutmut
 MVVM
+onnx
 overfitting
 polyfactory
 proto
@@ -42,7 +48,10 @@ pytest
 Quastor
 routable
 runme
+scikit
 Serveless
+SHAP
+SHapley
 Skteches
 sonarqube
 SQLAlchemy
@@ -50,6 +59,7 @@ sqlmodel
 subclassing
 supervisorctl
 supervisord
+torchscript
 Traefic
 virtualenv
 Virtualenvs

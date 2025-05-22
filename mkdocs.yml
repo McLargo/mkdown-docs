@@ -56,6 +56,7 @@ nav:
     - Deep Learning: machine-learning/deep-learning.md
     - Fundamentals: machine-learning/fundamentals.md
     - Input Data: machine-learning/input-data.md
+    - Responsibilities: machine-learning/responsibilities.md
   - Programming:
     - Conventional Commits: programming/conventional-commits.md
     - Development Workflows: programming/development-workflows.md
