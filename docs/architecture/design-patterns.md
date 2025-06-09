@@ -84,8 +84,9 @@ organization of software systems. Examples include:
 
 ## Concurrency Patterns
 
-These patterns address multi-threading and concurrent programming challenges.
-Examples include the "Thread Pool" and "Producer-Consumer" patterns.
+[Concurrency patterns](./concurrency-patterns.md) address multi-threading and
+concurrent programming challenges. Examples include the "Thread Pool" and
+"Producer-Consumer" patterns.
 
 ## Anti-Patterns
 
