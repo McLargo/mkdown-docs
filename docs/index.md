@@ -23,7 +23,7 @@ professional philosophy and understanding on technical topics.
 Using
 [markdown](https://gist.github.com/McLargo/ae633d1ff481c20c21433074169d283c#file-markdown-cheatsheet)
 to make it easier to build new documents from IDE.
-[Template sample available for this wiki](template). Using
+[Template sample available for this wiki](template.md). Using
 [markdown good practices](https://learn.microsoft.com/en-us/powershell/scripting/community/contributing/general-markdown?view=powershell-7.3).
 Highlighted practices are:
 

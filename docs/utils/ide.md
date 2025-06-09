@@ -7,7 +7,7 @@ editing your source code, debugging, and auto-completing.
 ## Sublime
 
 Simple, light and robust. It has everything I need to work with python.
-Installation by default on [my .dotfiles](../ubuntu/#dotfiles)
+Installation by default on [my .dotfiles](./ubuntu.md/#dotfiles)
 
 ## VS Code
 

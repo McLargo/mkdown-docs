@@ -8,7 +8,7 @@ Scrum differentiates from other frameworks by having a set of roles, artifacts
 and time boxes. Scrum is most often used to manage complex software and product
 development, using iterative and incremental practices. Scrum significantly
 increases productivity and reduces time to benefits relative to classic
-[waterfall](../waterfall-methodology) processes.
+[waterfall](./waterfall-methodology.md) processes.
 
 ## Scrum Roles
 

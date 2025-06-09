@@ -1,13 +1,13 @@
 # FastApi
 
 It is a python framework to build quickly restful API's. It is nice, modern, and
-with good performance. It has [Openapi](../openapi) implementation by default,
+with good performance. It has [Openapi](./openapi.md) implementation by default,
 you don't need to manually create and maintain openapi.yaml. By default, fastApi
 generates automatically openapi document.
 
 Uses pydantic for models, for data validations.
 
-Support [async](../python#async) by default too, enriching performance even
+Support [async](./python.md#async) by default too, enriching performance even
 faster. Careful when using async + DB.
 
 ## References

@@ -128,7 +128,7 @@ There are different ways to deploy the model:
 - [canary](../devops/deployment-strategies.md#canary-deployment)
 - shadow deployment: both models are deployed in production, but results are not
   exposed to users, just to get and analyze metrics.
-- [A/B testing](../devops/deployment-strategies.md#A/B-testing)
+- [A/B testing](../devops/deployment-strategies.md#ab-testing)
 
 ### Feedback loop
 

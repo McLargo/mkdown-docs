@@ -2,9 +2,7 @@
 
 ## What is virtualenv
 
-Most important thing in python, is
-[http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/](virtual
-environment)
+Most important thing in python, is virtual environments.
 
 virtualenv is a tool to create isolated Python environments. virtualenv creates
 a folder which contains all the necessary executables and libraries to use the
