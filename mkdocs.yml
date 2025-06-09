@@ -31,6 +31,7 @@ nav:
     - Data Storage: architecture/data-storage.md
     - Database Patterns: architecture/database-patterns.md
     - Design Patterns: architecture/design-patterns.md
+    - Distributed Transactions Patterns: architecture/distributed-transaction-patterns
     - Event Driven: architecture/event-driven.md
     - gRPC: architecture/grpc.md
     - Microservices: architecture/microservices.md
