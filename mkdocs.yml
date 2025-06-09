@@ -34,6 +34,7 @@ nav:
     - Distributed Transactions Patterns: architecture/distributed-transaction-patterns.md
     - Event Driven: architecture/event-driven.md
     - gRPC: architecture/grpc.md
+    - Hexagonal Architecture: architecture/hexagonal-architecture.md
     - Microservices: architecture/microservices.md
     - Monolithic Architecture: architecture/monolithic.md
     - REST: architecture/rest.md
