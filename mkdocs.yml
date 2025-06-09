@@ -12,7 +12,7 @@ theme:
   locale: en
 
 extra:
-  version: 2025.02
+  version: 2025.06
 
 extra_css:
   - assets/css/extra.css
