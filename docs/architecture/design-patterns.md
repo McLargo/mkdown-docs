@@ -67,6 +67,9 @@ interact and distribute responsibilities. Common behavioral patterns include:
   from clients that use it.
 - **Command Pattern**: Encapsulates a request as an object, thereby allowing for
   parameterization of clients with queues, requests, and operations.
+- **Chain of Responsibility Pattern**: Passes a request along a chain of
+  handlers, allowing multiple objects to handle the request without the sender
+  needing to know which object will handle it.
 
 ## Architectural Patterns
 
