@@ -22,77 +22,77 @@ plugins:
 
 nav:
   - Architecture:
-      - Architecture Decision Records: architecture/architecture-decision-record.md
-      - Communication:
-        - Adaptive Bitrate Streaming: architecture/communication/abs.md
-        - Asynchronous Messaging: architecture/communication/asynchronous-messaging.md
-        - gRPC: architecture/communication/grpc.md
-        - REST: architecture/communication/rest.md
-        - Websocket: architecture/communication/websocket.md
-      - Microservices:
-          - 101 Microservices: architecture/microservices/microservices.md
-          - API Gateway: architecture/microservices/api-gateway.md
-          - Distributed Transactions Patterns: architecture/microservices/distributed-transaction-patterns.md
-          - Event Driven: architecture/microservices/event-driven.md
-          - Saga Pattern: architecture/microservices/saga-pattern.md
-          - Service Mesh: architecture/microservices/service-mesh.md
-      - Patterns:
-          - Architecture Patterns: architecture/patterns/architecture-patterns.md
-          - Concurrency patterns: architecture/patterns/concurrency-patterns.md
-          - Data Storage: architecture/patterns/data-storage.md
-          - Database Patterns: architecture/patterns/database-patterns.md
-          - Design Patterns: architecture/patterns/design-patterns.md
-          - Hexagonal Architecture: architecture/patterns/hexagonal-architecture.md
-          - Monolithic Architecture: architecture/patterns/monolithic.md
-          - Solid Principles: architecture/patterns/solid.md
-          - State Pattern: architecture/patterns/state-pattern.md
+    - Architecture Decision Records: architecture/architecture-decision-record.md
+    - Communication:
+      - Adaptive Bitrate Streaming: architecture/communication/abs.md
+      - Asynchronous Messaging: architecture/communication/asynchronous-messaging.md
+      - gRPC: architecture/communication/grpc.md
+      - REST: architecture/communication/rest.md
+      - Service Mesh: architecture/communication/service-mesh.md
+      - Websocket: architecture/communication/websocket.md
+    - Microservices:
+      - 101 Microservices: architecture/microservices/microservices.md
+      - API Gateway: architecture/microservices/api-gateway.md
+      - Distributed Transactions Patterns: architecture/microservices/distributed-transaction-patterns.md
+      - Event Driven: architecture/microservices/event-driven.md
+      - Saga Pattern: architecture/microservices/saga-pattern.md
+    - Patterns:
+      - Architecture Patterns: architecture/patterns/architecture-patterns.md
+      - Concurrency patterns: architecture/patterns/concurrency-patterns.md
+      - Data Storage: architecture/patterns/data-storage.md
+      - Database Patterns: architecture/patterns/database-patterns.md
+      - Design Patterns: architecture/patterns/design-patterns.md
+      - Hexagonal Architecture: architecture/patterns/hexagonal-architecture.md
+      - Monolithic Architecture: architecture/patterns/monolithic.md
+      - Solid Principles: architecture/patterns/solid.md
+      - State Pattern: architecture/patterns/state-pattern.md
   - DevOps:
-      - Continuous Integration: devops/continuous-integration.md
-      - Deployment Strategies: devops/deployment-strategies.md
-      - Docker: devops/docker.md
-      - Features Toggles: devops/features-toggles.md
-      - Helm Charts: devops/helm.md
-      - Kubernetes: devops/k8s.md
-      - Load Shedding: devops/load-shedding.md
-      - Observability: devops/observability.md
-      - Serverless Computing: devops/serverless.md
-      - Versioning: devops/versioning.md
+    - Continuous Integration: devops/continuous-integration.md
+    - Deployment Strategies: devops/deployment-strategies.md
+    - Docker: devops/docker.md
+    - Features Toggles: devops/features-toggles.md
+    - Helm Charts: devops/helm.md
+    - Kubernetes: devops/k8s.md
+    - Load Shedding: devops/load-shedding.md
+    - Observability: devops/observability.md
+    - Serverless Computing: devops/serverless.md
+    - Versioning: devops/versioning.md
   - Machine Learning:
-      - Algorithms: machine-learning/algorithms.md
-      - Deep Learning: machine-learning/deep-learning.md
-      - Fundamentals: machine-learning/fundamentals.md
-      - Input Data: machine-learning/input-data.md
-      - Responsibilities: machine-learning/responsibilities.md
+    - Algorithms: machine-learning/algorithms.md
+    - Deep Learning: machine-learning/deep-learning.md
+    - Fundamentals: machine-learning/fundamentals.md
+    - Input Data: machine-learning/input-data.md
+    - Responsibilities: machine-learning/responsibilities.md
   - Programming:
-      - Algorithm Complexity: programming/algorithm-complexity.md
-      - Conventional Commits: programming/conventional-commits.md
-      - Development Workflows: programming/development-workflows.md
-      - Django: programming/django.md
-      - FastApi: programming/fastapi.md
-      - Flask: programming/flask.md
-      - Golang: programming/golang.md
-      - OpenAPI Specification: programming/openapi.md
-      - Python: programming/python.md
-      - SQLAlchemy: programming/sqlalchemy.md
-      - Virtualenvs: programming/virtualenvs.md
+    - Algorithm Complexity: programming/algorithm-complexity.md
+    - Conventional Commits: programming/conventional-commits.md
+    - Development Workflows: programming/development-workflows.md
+    - Django: programming/django.md
+    - FastApi: programming/fastapi.md
+    - Flask: programming/flask.md
+    - Golang: programming/golang.md
+    - OpenAPI Specification: programming/openapi.md
+    - Python: programming/python.md
+    - SQLAlchemy: programming/sqlalchemy.md
+    - Virtualenvs: programming/virtualenvs.md
   - Project Management:
-      - C4 Model: project-management/c4-model.md
-      - Diagram Flows: project-management/diagram-flows.md
-      - SCRUM: project-management/scrum.md
-      - Technical Leader: project-management/tech-lead.md
-      - Waterfall Methodology: project-management/waterfall-methodology.md
-      - Work Remotely: project-management/work-remotely.md
+    - C4 Model: project-management/c4-model.md
+    - Diagram Flows: project-management/diagram-flows.md
+    - SCRUM: project-management/scrum.md
+    - Technical Leader: project-management/tech-lead.md
+    - Waterfall Methodology: project-management/waterfall-methodology.md
+    - Work Remotely: project-management/work-remotely.md
   - Utils:
-      - Daemon: utils/daemon.md
-      - Database table indexes: utils/db-table-indexes.md
-      - Databases: utils/databases.md
-      - IDE: utils/ide.md
-      - Regex: utils/regex.md
-      - Supervisor: utils/supervisor.md
-      - Task runner: utils/task-runner.md
-      - Transmission: utils/transmission.md
-      - Testing: utils/testing.md
-      - Ubuntu: utils/ubuntu.md
-      - Working Environment: utils/working-environment.md
+    - Daemon: utils/daemon.md
+    - Database table indexes: utils/db-table-indexes.md
+    - Databases: utils/databases.md
+    - IDE: utils/ide.md
+    - Regex: utils/regex.md
+    - Supervisor: utils/supervisor.md
+    - Task runner: utils/task-runner.md
+    - Transmission: utils/transmission.md
+    - Testing: utils/testing.md
+    - Ubuntu: utils/ubuntu.md
+    - Working Environment: utils/working-environment.md
 
 copyright: Copyright &copy; 2025 <a href="https://github.com/McLargo">Javier Gil</a>.
