@@ -28,15 +28,23 @@ nav:
       - Asynchronous Messaging: architecture/communication/asynchronous-messaging.md
       - gRPC: architecture/communication/grpc.md
       - REST: architecture/communication/rest.md
-      - Service Mesh: architecture/communication/service-mesh.md
       - Websocket: architecture/communication/websocket.md
     - Microservices:
       - 101 Microservices: architecture/microservices/microservices.md
+      - Aggregator Pattern: architecture/microservices/aggregator.md
+      - Anti-Corruption Layer: architecture/microservices/anti-corruption-layer.md
       - API Gateway: architecture/microservices/api-gateway.md
       - Backend For Frontend: architecture/microservices/bff.md
+      - Bulkhead Pattern: architecture/microservices/bulkhead.md
+      - Circuit Breaker Pattern: architecture/microservices/circuit-breaker.md
+      - Command Query Responsibility Segregation Pattern: architecture/microservices/cqrs.md
+      - Database Per Microservice Pattern: architecture/microservices/database-per-service.md
       - Distributed Transactions Patterns: architecture/microservices/distributed-transaction-patterns.md
       - Event Driven: architecture/microservices/event-driven.md
       - Saga Pattern: architecture/microservices/saga-pattern.md
+      - Service Mesh: architecture/microservices/service-mesh.md
+      - Sidecar Pattern: architecture/microservices/sidecar.md
+      - Strangler Fig Pattern: architecture/microservices/strangler-fig.md
     - Patterns:
       - Concurrency patterns: architecture/patterns/concurrency-patterns.md
       - Data Storage: architecture/patterns/data-storage.md

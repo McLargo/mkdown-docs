@@ -101,10 +101,20 @@ There are different architectural styles to achieve this communication:
 
 ## Patterns
 
+- [Aggregator](../microservices/aggregator.md)
+- [Anti-Corruption Layer](../microservices/anti-corruption-layer.md)
 - [API Gateway](../microservices/api-gateway.md)
+- [Backend for Frontend (BFF)](../microservices/bff.md)
+- [Bulkhead](../microservices/bulkhead.md)
+- [Circuit Breaker](../microservices/circuit-breaker.md)
+- [CQRS](../microservices/cqrs.md)
+- [Database per service](../microservices/database-per-service.md)
 - [Distributed Transaction](../microservices/distributed-transaction-patterns.md)
 - [Event driven](../microservices/event-driven.md)
 - [Saga Pattern](../microservices/saga-pattern.md)
+- [Service Mesh](../microservices/service-mesh.md)
+- [Sidecar Pattern](../microservices/sidecar.md)
+- [Strangler Fig](../microservices/strangler-fig.md)
 
 ## References
 

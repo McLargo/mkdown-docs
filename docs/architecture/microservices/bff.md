@@ -1,10 +1,12 @@
 # BFF (Backend for Frontend)
 
 BFF is a pattern that consists of creating a backend service customized for a
-frontend application. Backend is usually a composition of multiple services,
-each of them providing different functionalities and supporting different
-protocols. The BFF is responsible for aggregating the data from these services
-and providing a single endpoint for the frontend specific needs.
+frontend application (web, mobile app, desktop app...). Backend is usually a
+composition of multiple services, each of them providing different
+functionalities and supporting different protocols. The BFF is responsible for
+aggregating/transform the data from these services and providing a single
+endpoint for the frontend specific needs. This process simplifies logic in
+frontend, and frontends can evolve independently from the backend.
 
 Having this intermediate transformation layer between the frontend and the
 backend services, provides the following benefits:

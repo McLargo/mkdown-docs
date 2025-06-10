@@ -25,8 +25,10 @@ The core components of an EDA are:
 
 ## Events
 
-An event is a message that represents a change in state or an action in the
-system. All events are messages, but not all messages are events.
+**An event is a message that represents a change in state or an action in the
+system.**
+
+All events are messages, but not all messages are events.
 
 Usually are represented in a key/value format, where the key is the event type
 that identifies the event and the value is the event payload, which contains the
@@ -34,6 +36,8 @@ information about the event.
 
 Events are immutable. Once an event is published, it can't be changed. If a
 change is needed, a new event must be published with new data.
+
+You can rebuild your entire system state by replaying the events.
 
 ### Domain events
 

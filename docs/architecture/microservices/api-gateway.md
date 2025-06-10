@@ -20,3 +20,9 @@ and harder to maintain.
 
 Some popular API Gateway services are: nginx, HAProxy and Kong. AWS, Azure and
 GCP also provide their own API Gateway services.
+
+This approach simplifies the client, as communication is one single point
+instead of one per service.
+
+It also produces a single point of failure, and if gateway is not optimized or
+does not scale properly, it could produce a bottleneck.
