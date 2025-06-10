@@ -1,7 +1,7 @@
 # Microservices
 
  It is architectural style that focuses on discrete services instead of a
- [monolithic design](../architecture/monolithic.md). Microservices architecture
+ [monolithic design](../patterns/monolithic.md). Microservices architecture
  breaks down an application into smaller, independent services that each serve a
  specific business capability or function. These services are developed and
  deployed independently, often with their own codebase and database.
@@ -51,7 +51,7 @@ There is less direct communication between services since most interactions are
 mediated by the orchestrator. This can reduce the need for services to be aware
 of each other's existence.
 
-![Orchestration](../assets/img/orchestration.png)
+![Orchestration](../../assets/img/orchestration.png)
 
 ## Choreography
 
@@ -82,22 +82,29 @@ Finally, it requires services to communicate directly with each other, which can
 lead to more inter-service communication. This increased communication can
 result in more complex service discovery and network traffic management.
 
-![Choreography](../assets/img/choreography.png)
+![Choreography](../../assets/img/choreography.png)
 
 ## Architecture styles
 
 Services in a microservice architecture needs to communicate between each other.
 There are different architectural styles to achieve this communication:
 
-- [REST](./rest.md): Representational State Transfer is an architectural
-  style that uses standard HTTP methods (GET, POST, PUT, DELETE) to interact
-  with resources. RESTful services are stateless, meaning that each request from
-  a client contains all the information needed to process the request. REST is
-  simple to understand and implement, and it can be used over any protocol that
-  supports request/response semantics.
+- [REST](../communication/rest.md): Representational State Transfer is an
+  architectural style that uses standard HTTP methods (GET, POST, PUT, DELETE)
+  to interact with resources. RESTful services are stateless, meaning that each
+  request from a client contains all the information needed to process the
+  request. REST is simple to understand and implement, and it can be used over
+  any protocol that supports request/response semantics.
 
 - RPC: Remote Procedure Call is a protocol that allows a program to execute code
-  on a remote server. A popular RPC framework is [gRPC](./grpc.md).
+  on a remote server. A popular RPC framework is [gRPC](../communication/grpc.md).
+
+## Patterns
+
+- [API Gateway](../microservices/api-gateway.md)
+- [Distributed Transaction](../microservices/distributed-transaction-patterns.md)
+- [Event driven](../microservices/event-driven.md)
+- [Saga Pattern](../microservices/saga-pattern.md)
 
 ## References
 

@@ -2,12 +2,12 @@
 
 Generally speaking, a microservice architecture needs that services talk to each
 other. No matter what approach is used, if
-[Orchestration](../architecture/microservices.md#orchestration) or
-[Choreography](../architecture/microservices.md#choreography), both can use an
+[Orchestration](./microservices.md#orchestration) or
+[Choreography](./microservices.md#choreography), both can use an
 Event-driven architecture to communicate with the difference services involved.
 Events are trigger from services and other services can subscribe to them, and
 react upon the event information. Communication between services using events is
-[asynchronous](../architecture/asynchronous-messaging.md).
+[asynchronous](../communication/asynchronous-messaging.md).
 
 ## Core components of event-driven architecture
 

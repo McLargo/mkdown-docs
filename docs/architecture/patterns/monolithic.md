@@ -4,7 +4,7 @@
  tightly integrated unit. All components, modules, and functionalities are part
  of a single codebase and run within the same process. As an alternative to this
  architecture design, we can find service-oriented architecture (SOA) such as
- [microservices](../architecture/microservices.md).
+ [microservices](../microservices/microservices.md).
 
 ## Principles
 

@@ -18,7 +18,7 @@ consumed, is removed. Only one consumer consume a specific message.
 Multiple produced can publish a message to a topic, and several consumers can
 subscribe to the same topic, consuming and handle the message in different ways.
 Messages can be ephemeral or durable. Used for
-[event-driven architecture](../architecture/event-driven.md).
+[event-driven architecture](../microservices/event-driven.md).
 
 ## RabbitMQ
 

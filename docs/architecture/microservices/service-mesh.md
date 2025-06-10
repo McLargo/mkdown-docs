@@ -3,7 +3,7 @@
 A service mesh is an infrastructure layer that handles communication between the
 microservices/machines in your backend.
 
-As [microservices](../architecture/microservices.md) are added to the backend,
+As [microservices](../microservices/microservices.md) are added to the backend,
 the number of connections between them grows exponentially. This can lead to a
 lot of complexity and potential issues. A service mesh can help manage this
 complexity by providing a way to manage and monitor the communication between
@@ -28,8 +28,9 @@ microservices.
   authentication and, authorization from service to service. Also you can set
   limits on which services can talk to each other.
 
-- Deployment: the service mesh can provide features such as [canary deployments](../devops/deployment-strategies.md#canary-deployment),
-  [A/B deployments](../devops/deployment-strategies.md#ab-testing), etc.
+- Deployment: the service mesh can provide features such as
+  [canary deployments](../../devops/deployment-strategies.md#canary-deployment),
+  [A/B deployments](../../devops/deployment-strategies.md#ab-testing), etc.
 
 ## Architecture
 

@@ -14,8 +14,8 @@ k8s uses reconciliation to make the actual state looks like the desire state via
 control loop. Or by using imperative actions.
 
 k8s is usually the deployment tool for a
-[microservices](../architecture/microservices.md) architecture, instead of
-[monolithic application](../architecture/monolithic.md).
+[microservices](../architecture/microservices/microservices.md) architecture,
+instead of [monolithic application](../architecture/patterns/monolithic.md).
 
 ## Concepts
 

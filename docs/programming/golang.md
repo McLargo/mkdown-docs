@@ -7,9 +7,9 @@ Golang or commonly known as Go, it is a programming language designed by Google.
   it faster than interpreted languages.
 - garbage-collected: Go has a garbage collector that automatically manages memory.
 - concurrent: Go has built-in support for concurrent programming. You can run
-  [multiple tasks concurrently](../architecture/concurrency-patterns.md), making
-  more efficient code. Go uses goroutines and channels to achieve this. You need
-  to give a little bit of thought how you program your code.
+  [multiple tasks concurrently](../architecture/patterns/concurrency-patterns.md),
+  making more efficient code. Go uses goroutines and channels to achieve this.
+  You need to give a little bit of thought how you program your code.
 
 ## References
 

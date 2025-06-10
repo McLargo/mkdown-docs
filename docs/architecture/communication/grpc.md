@@ -22,7 +22,7 @@ call is executed on a remote server.
 
 The diagram below illustrates the overall data flow for gRPC.
 
-![How gRPC works](../assets/img/grpc.png)
+![How gRPC works](../../assets/img/grpc.png)
 
 ## References
 

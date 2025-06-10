@@ -7,7 +7,7 @@ functionality together based on workflow or business processes. That means, when
 adding or changing a feature in an application, it requires development into
 almost all layers in the application.
 
-![Vertical slice](../assets/img/vertical-slice.png)
+![Vertical slice](../../assets/img/vertical-slice.png)
 
 It is a way of organizing code that is more maintainable and scalable, with
 faster delivery times.
@@ -35,7 +35,7 @@ deal with complex domains. Key concepts of DDD are:
   - **Infrastructure layer**: The external systems that the application
     interacts, like persistence, messaging, etc.
 
-![Domain driven](../assets/img/domain-driven.png)
+![Domain driven](../../assets/img/domain-driven.png)
 
 ## Hexagonal architecture
 
@@ -53,7 +53,7 @@ Two important concepts in hexagonal architecture are ports and adapters:
   adapter when represent connections to the backend, reacting to the primary
   adapter.
 
-![Hexagonal architecture](../assets/img/hexagonal.png)
+![Hexagonal architecture](../../assets/img/hexagonal.png)
 
 This gives the flexibility to make changes on the adapters (implementation)
 easily. For example you can swap out Oracle or SQL Server, for Mongo or
@@ -82,7 +82,7 @@ backend services, provides the following benefits:
 - **Cache**: The BFF can cache data from the backend services, reducing the load
   on the backend services.
 
-![Backend-for-Frontend architecture](../assets/img/bff.png)
+![Backend-for-Frontend architecture](../../assets/img/bff.png)
 
 ## References
 
