@@ -33,19 +33,21 @@ nav:
     - Microservices:
       - 101 Microservices: architecture/microservices/microservices.md
       - API Gateway: architecture/microservices/api-gateway.md
+      - Backend For Frontend: architecture/microservices/bff.md
       - Distributed Transactions Patterns: architecture/microservices/distributed-transaction-patterns.md
       - Event Driven: architecture/microservices/event-driven.md
       - Saga Pattern: architecture/microservices/saga-pattern.md
     - Patterns:
-      - Architecture Patterns: architecture/patterns/architecture-patterns.md
       - Concurrency patterns: architecture/patterns/concurrency-patterns.md
       - Data Storage: architecture/patterns/data-storage.md
       - Database Patterns: architecture/patterns/database-patterns.md
+      - Domain Driven Architecture: architecture/patterns/domain-driven.md
       - Design Patterns: architecture/patterns/design-patterns.md
       - Hexagonal Architecture: architecture/patterns/hexagonal-architecture.md
       - Monolithic Architecture: architecture/patterns/monolithic.md
       - Solid Principles: architecture/patterns/solid.md
       - State Pattern: architecture/patterns/state-pattern.md
+      - Vertical Slice: architecture/patterns/vertical-slice.md
   - DevOps:
     - Continuous Integration: devops/continuous-integration.md
     - Deployment Strategies: devops/deployment-strategies.md
