@@ -93,6 +93,7 @@ nav:
     - Waterfall Methodology: project-management/waterfall-methodology.md
     - Work Remotely: project-management/work-remotely.md
   - Utils:
+    - Authentication: utils/authentication.md
     - Daemon: utils/daemon.md
     - Database table indexes: utils/db-table-indexes.md
     - Databases: utils/databases.md
