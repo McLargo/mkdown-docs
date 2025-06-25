@@ -242,21 +242,6 @@ platformdirs = ">=2.2.0"
 pyyaml = ">=5.1"
 
 [[package]]
-name = "mkdocs-windmill"
-version = "1.0.5"
-description = "MkDocs theme focused on navigation and usability"
-optional = false
-python-versions = "*"
-groups = ["main"]
-files = [
-    {file = "mkdocs-windmill-1.0.5.tar.gz", hash = "sha256:a75f92cfd4aa992a4310d187860ecc50d5e2a690ba9d0899275013778ef5e704"},
-    {file = "mkdocs_windmill-1.0.5-py2-none-any.whl", hash = "sha256:15c3f629bb500b941b848782f87ef1803bf5c97cc6702b80b54647ad0a9298d7"},
-]
-
-[package.dependencies]
-mkdocs = "*"
-
-[[package]]
 name = "packaging"
 version = "25.0"
 description = "Core utilities for Python packages"
@@ -469,4 +454,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.9"
-content-hash = "7088eab210cc89a6dc0326f0843b5b024f12a1548e47e86931036792547311d8"
+content-hash = "20c5144c8b76b091258e31e29e2180f404e18e5cd2c94b58f60efdbe15811def"
