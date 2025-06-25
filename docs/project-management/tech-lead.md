@@ -81,14 +81,13 @@ velocity and code quality.
 - Applying good pull request practices.
 - Reducing time to merge.
 - Avoid huge pull request.
-
-- [Commit lint online](https://commitlint.io/)
-- [Docstring pydoc](https://www.datacamp.com/tutorial/docstrings-python)
+- [Commit lint online](https://commitlint.io/).
+- [Docstring pydoc](https://www.datacamp.com/tutorial/docstrings-python).
 
 ### Ship good quality code fast
 
 - Deploying to production frequently.
-- SMall deployments.
+- Small deployments.
 - Keep a relation of bugs per deployment. Are detected fast by the team or user?
   Are fixed fast?
 
