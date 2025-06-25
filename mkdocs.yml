@@ -55,6 +55,7 @@ nav:
       - Design Patterns: architecture/patterns/design-patterns.md
       - Hexagonal Architecture: architecture/patterns/hexagonal-architecture.md
       - Monolithic Architecture: architecture/patterns/monolithic.md
+      - Retry Mechanism: architecture/patterns/retry-mechanism.md
       - Solid Principles: architecture/patterns/solid.md
       - State Pattern: architecture/patterns/state-pattern.md
       - Vertical Slice: architecture/patterns/vertical-slice.md
