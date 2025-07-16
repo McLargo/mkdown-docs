@@ -33,8 +33,23 @@ displayed. A good tool for this is [Kibana](https://www.elastic.co/kibana), with
 
 ## Metrics
 
-Gathering and analyzing various metrics such as CPU utilization, memory usage,
-disk I/O, network traffic, and application-specific performance indicators.
+A metric is a numerical measurement easily understandable by humans. It helps
+humans to understand the system's behavior and performance, from a technical and
+a business point of view.
+
+Gathering and analyzing various metrics is essential to find quickly if your
+system is behaving as expected. Metrics can include various performance
+indicators, such as:
+
+- CPU utilization
+- memory usage
+- disk I/O bottleneck
+- connectivity and performance (database, 3rd party services, cache...)
+- network traffic and latency
+- http request/response times
+- error rates
+- application-specific metrics (e.g., user sign-ups, transactions processed)
+
 These metrics provide a real-time view of the server's health and performance.
 [Prometheus](https://prometheus.io/) is an open-source systems monitoring and
 alerting toolkit. It comes with a query language built-in, where powerful
@@ -46,39 +61,45 @@ For metrics visualization, [Grafana](https://grafana.com/) is a good option.
 
 ### How to use/analyze metrics
 
-- Don't use averages, use percentiles. Average doesn't show the real picture of
-  the system, because it can be skewed by a few outliers. For this reason, we
-  use percentiles, like P50, P90, P99, etc. How to get the value, just by
-  throwing out the bottom _XX_% of the points and looking the first point that
-  remains.
+**Don't use averages, use percentiles.**
 
-  From a list of sorted latency times [20, 37, 45, 62, 850, 920], the average is
-  312.3ms. But the **P50 is 62ms** and the **P90 is 920ms**. This means that 50%
-  of the requests are below 62ms and 90% of the requests are below 920ms.
+Average doesn't show the real picture of the system, because it can be skewed by
+a few outliers. For this reason, we use percentiles, like P50, P90, P99, etc.
+How to get the value, just by throwing out the bottom _XX_% of the points and
+looking the first point that remains.
 
-- Set alarms. Manual look to metrics or schedule checks is not enough, specially
-  if the system is quite big. You need to be notified when something goes
-  wrong.For each metric, you should set a period to measure, a threshold (limit)
-  and a grace period (in case error recover by itself) before triggering the
-  alarm.
+From a list of sorted latency times [20, 37, 45, 62, 850, 920], the average is
+312.3ms. But the **P50 is 62ms** and the **P90 is 920ms**. This means that 50%
+of the requests are below 62ms and 90% of the requests are below 920ms.
 
-  You can also set Working Day Alarms, alarms that indicates early warning
-  indicators. During a working day, people can look into the issue, but if same
-  happens during night or weekend, no need to wake up people (until the alarm is
-  critical).
+**Set alarms.**
 
-- Adapt limits to cycles. It's not the same traffic during the day than during
-  the night, or in load peaks (if you are a retailer, during Black Friday you
-  should expect a lot of traffic). You should set different threshold for
-  different situation (hour, day of the week, season...).
+Manual look to metrics or schedule checks is not enough, specially if the system
+is quite big. You need to be notified when something goes wrong.For each metric,
+you should set a period to measure, a threshold (limit) and a grace period (in
+case error recover by itself) before triggering the alarm.
 
-- Not having metrics is as bad as a bad metric. If you don't have metrics, you
-  can't know what is happening in your system. Create alarms to alert if metrics
-  are not present.
+You can also set Working Day Alarms, alarms that indicates early warning
+indicators. During a working day, people can look into the issue, but if same
+happens during night or weekend, no need to wake up people (until the alarm is
+critical).
 
-- Periodically review your metrics. The system is not static, it changes over
-  time. You should review your metrics periodically to ensure they are still
-  relevant and useful. If this process can be automated, better.
+**Adapt limits to cycles.**
+
+It's not the same traffic during the day than during the night, or in load peaks
+(if you are a retailer, during Black Friday you should expect a lot of traffic).
+You should set different threshold for different situation (hour, day of the
+week, season...).
+
+**Periodically review your metrics.**
+
+The system is not static, it changes over time. You should review your metrics
+periodically to ensure they are still relevant and useful. If this process can
+be automated, better.
+
+Remember that not having metrics is as bad as a bad metric. If you don't have
+metrics, you can't know what is happening in your system. Create alarms to alert
+if metrics are not present.
 
 ## Tracing
 
@@ -99,3 +120,4 @@ maintain and improve server performance and reliability.
 
 - [Observability](https://www.ibm.com/topics/observability)
 - [Metric](https://medium.com/@djsmith42/how-to-metric-edafaf959fc7)
+- [Observability playground](https://github.com/McLargo/observability-playground)
