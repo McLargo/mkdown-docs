@@ -19,8 +19,9 @@ request is made up of:
 
 - HTTP verb, which defines what kind of operation to perform.
 - headers, which allows the client to pass along information about the request.
-- path to a resource.
-- message /payload containing data (optional).
+- path to a resource, including any identifiers.
+- query parameters (optional).
+- message/payload containing data (optional).
 
 #### HTTP Verbs
 
@@ -37,13 +38,18 @@ In the header of the request, you can specify the type of data you want to send
 or receive. Or any other metadata you want to pass along with the request, such
 as authentication token.
 
-#### Paths
+#### Path
 
 A path to the resource you want to interact with. It is a string that follows
-the URL. Aside from the ids of the resources, it can contain parameters to
-filter, sort or paginate the results.
+the URL. It can contain identifiers for the resource you want to access, such as
+`/users/123` to access the user with id 123.
 
-#### Message / Payload
+#### Query Parameters
+
+Query parameters are optional and are used to filter, sort, or paginate the
+results.
+
+#### Message/Payload
 
 The message is the data you want to send to the server. It can be in different
 formats, such as JSON, XML, or form data. The format send is specified in the
@@ -101,7 +107,6 @@ API consumers, include a structured JSON error message, like:
 - resources in plural. e.g. `/users`, `/products`
 - use `-` instead of `_`.
 - don't use verbs, use names. Actions are implicit in HTTP methods.
-- basic structure.
 - keep naming consistency across your API (paths, query parameters, payload,
   response...).
 - validate your inputs and outputs.
@@ -114,6 +119,7 @@ API consumers, include a structured JSON error message, like:
   predictable.
 - don't expose internal database structure in your API.
 - log each request with unique request ID.
+- create common error response.
 
 ```text
 GET ALL

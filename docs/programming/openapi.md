@@ -1,9 +1,10 @@
 # OpenAPI Specification
 
-OpenAPI Specification is an API description format for REST APIs. It is in a
-machine-readable format (but also very human friendly), so it can have data,
-description and linting validation, making sure format is correct. Generates a
-documentation for humans, which is always up-to-date.
+OpenAPI Specification is an API description format for
+[REST APIs](../architecture/communication/rest.md). It is in a machine-readable
+format (but also very human friendly), so it can have data, description and
+linting validation, making sure format is correct. Generates a documentation for
+humans, which is always up-to-date.
 
 ## Why is needed?
 
