@@ -75,6 +75,7 @@ that the server can send back to the client. They are divided into ranges:
   - 404 Not Found
   - 405 Method Not Allowed
   - 409 Conflict
+  - 422 Unprocessable Entity
   - 429 Too Many Requests
 - 5XX -> server error codes range
 
@@ -94,19 +95,32 @@ API consumers, include a structured JSON error message, like:
 
 ### Good practices RESTful API
 
-- parametrize your API endpoints to version them. e.g. `/api/v1/users`
+- parametrize your API endpoints to version them. e.g. `/api/v1/users`.
 - group your endpoints by resources and scopes (e.g. `/api/v1/users`,
-  `/api/v1/admin/users`)
+  `/api/v1/admin/users`).
 - resources in plural. e.g. `/users`, `/products`
-- use `-` instead of `_`
-- don't use verbs, use names. Actions are implicit in HTTP methods
-- basic structure
+- use `-` instead of `_`.
+- don't use verbs, use names. Actions are implicit in HTTP methods.
+- basic structure.
+- keep naming consistency across your API (paths, query parameters, payload,
+  response...).
+- validate your inputs and outputs.
+- secure your API with authentication and authorization.
+- use pagination for large datasets.
+- document your API. Tools like [OpenAPI](../../programming/openapi.md) can help
+  you to document your API in a standard way.
+- usage of Enum type instead of bool for query parameters.
+- public id should be UUID instead of an integer. More secure and less
+  predictable.
+- don't expose internal database structure in your API.
+- log each request with unique request ID.
 
 ```text
 GET ALL
 `api/<resources>`
 
-HTTP status code 200 OK for a successful GET of resource, or empty results.
+HTTP status code 200 OK for a successful GET of resource, or empty results. It
+should include pagination by default.
 
 GET BY ID
 `api/<resources>/<id>`
