@@ -48,6 +48,8 @@ pyproject
 pytest
 Quastor
 routable
+runbook
+runbooks
 runme
 scikit
 Serveless

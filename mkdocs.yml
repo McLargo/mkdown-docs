@@ -102,6 +102,7 @@ nav:
     - Databases: utils/databases.md
     - IDE: utils/ide.md
     - Regex: utils/regex.md
+    - Runbooks: utils/runbooks.md
     - Supervisor: utils/supervisor.md
     - Task runner: utils/task-runner.md
     - Transmission: utils/transmission.md
