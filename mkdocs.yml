@@ -91,6 +91,7 @@ nav:
   - Project Management:
     - C4 Model: project-management/c4-model.md
     - Diagram Flows: project-management/diagram-flows.md
+    - Product Owner: project-management/product-owner.md
     - SCRUM: project-management/scrum.md
     - Technical Leader: project-management/tech-lead.md
     - Waterfall Methodology: project-management/waterfall-methodology.md
