@@ -30,6 +30,7 @@ nav:
       - Asynchronous Messaging: architecture/communication/asynchronous-messaging.md
       - gRPC: architecture/communication/grpc.md
       - REST: architecture/communication/rest.md
+      - Webhooks: architecture/communication/webhooks.md
       - Websocket: architecture/communication/websocket.md
     - Microservices:
       - 101 Microservices: architecture/microservices/microservices.md
