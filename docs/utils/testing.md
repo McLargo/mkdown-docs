@@ -21,36 +21,25 @@ the code will not break the expected behavior.
 Test should be fast and deterministic (same result over and over). It should not
 depend on any external resource, such as a database, network, or file system.
 
-### Coverage
-
-Coverage is a metric that measures the amount of code that is covered by tests.
-It generates a report showing which are the total lines of code, which are
-covered by tests and which are not.
-
-The higher the coverage, the better. But it is important to note that 100%
-coverage does not mean that the code is bug free. It only means that all lines
-are covered by tests.
-
 It is a good idea to check the coverage on your tests. If any line is not
 covered, means that test may not be completed or that the code is not being
 used, given you the opportunity to remove it.
 
-### Mocking
+Some concepts commonly used in unit testing:
 
-When testing logic that depends on external resources, such as a database or a
-external HTTP request, it is a good practice to mock the response. This way, the
-test is not dependent on the external resource, giving faster and deterministic
-tests.
-
-### Fixtures
-
-Fixtures are a way to set up and tear down resources that are used in the tests.
-It is a way to avoid code repetition and to keep the tests clean, ensuring that
-data is consistent across all tests.
-
-### Parametrized tests
-
-Parametrized tests are a way to run the same test with different inputs.
+- **Coverage**: metric that measures the amount of code that is covered by
+  tests. It generates a report showing which are the total lines of code, which
+  are covered by tests and which are not. The higher the coverage, the better.
+  But it is important to note that 100% coverage does not mean that the code is
+  bug free, it only means that all lines are covered by tests.
+- **Mocking**: when testing logic that depends on external resources, such as a
+  database or a external HTTP request, it is a good practice to mock the
+  response. This way, the test is not dependent on the external resource, giving
+  faster and deterministic tests.
+- **Fixtures**: common way to set up and tear down resources that are used in
+  the tests. It is a way to avoid code repetition and to keep the tests clean,
+  ensuring that data is consistent across all tests.
+- **Parametrized tests**: procedure to run the same test with different inputs.
 
 ## Integration test
 
@@ -69,38 +58,52 @@ to automate, it can be done manually.
 These tests are slow and hard to create and maintain, but are important to
 ensure that the application is working as expected.
 
-### Smoke test
-
-Smoke tests are a subset of end-to-end tests. They are used to ensure that the
-the most important features of the application are working as expected,
-preventing the application to be usable. Smoked tests have a limited scope,
-completed in a short time.
-
-### Regression test
-
-Confirms that previously developed and tested features in an application still
-works correctly after any changes are introduced. Regression tests have wider
-scope and covers all areas in the application, taking longer to complete.
+- **Smoke test**: are a subset of end-to-end tests. They are used to ensure that
+  the the most important features of the application are working as expected,
+  preventing the application to be usable. Smoked tests have a limited scope,
+  completed in a short time.
+- **Regression test**: confirms that previously developed and tested features in
+  an application still works correctly after any changes are introduced.
+  Regression tests have wider scope and covers all areas in the application,
+  taking longer to complete.
 
 ## Performance test
 
 Performance tests are testing methods to measure how the system behaves and
 performs under a particular load.
 
-### Load test
+- **Load test**: load testing is the process of checking the behavior of the
+  system under an anticipated load.
+- **Stress test**: the goal of stress testing is to identify the saturation
+  point and the first bottleneck of the application under test. Once is
+  identified, it is possible to patch that part of the system to avoid the
+  bottleneck.
+- **Spike Tests**: test the system's reaction to sudden and extreme changes in
+  load.
 
-Load testing is the process of checking the behavior of the system under an
-anticipated load.
+## Tools
 
-### Stress test
+Aside from unit and integration tests that can be implemented in the repository
+in any language, there are other tools that can be used to test your
+application:
 
-The goal of stress testing is to identify the saturation point and the first
-bottleneck of the application under test. Once is identified, it is possible to
-patch that part of the system to avoid the bottleneck.
-
-### Spike Tests
-
-Test the system's reaction to sudden and extreme changes in load.
+- [Postman](https://www.postman.com/): allows to create collection of requests
+  (REST, graphql, gRPC...) that can be run manually or automated. You can also
+  set authorization, environment variables, pre-request scripts and complex
+  flows.
+- [Bruno](https://getbruno.io/): similar to Postman, but simpler and open
+  source. Collection are files that can be stored in the repository.
+- [JMeter](https://jmeter.apache.org/): open source tool to perform load testing
+  and measure performance. It can simulate a heavy load on a server, group of
+  servers, network or object to test its strength or to analyze overall
+  performance under different load types.
+- [Locust](https://locust.io/): open source load testing tool that allows
+  writing test scenarios in Python. It is easy to use and can be integrated with
+  CI/CD pipelines.
+- [Newman](https://www.npmjs.com/package/newman): command line tool to run
+  Postman collections. It can be integrated with CI/CD pipelines.
+- [Selenium](https://www.selenium.dev/): open source tool to automate browsers.
+  It can be used to create end-to-end tests for web applications.
 
 ## References
 
