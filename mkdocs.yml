@@ -104,6 +104,7 @@ nav:
     - Database table indexes: utils/db-table-indexes.md
     - Databases: utils/databases.md
     - IDE: utils/ide.md
+    - Proxy: utils/proxy.md
     - Regex: utils/regex.md
     - Runbooks: utils/runbooks.md
     - Supervisor: utils/supervisor.md

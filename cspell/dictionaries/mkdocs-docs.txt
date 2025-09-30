@@ -64,7 +64,7 @@ supervisorctl
 supervisord
 torchscript
 TOTP
-Traefic
+Traefik
 virtualenv
 Virtualenvs
 

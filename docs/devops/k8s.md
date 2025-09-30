@@ -133,7 +133,7 @@ externally-reachable URLs, load balance traffic, terminate SSL / TLS, and offer
 name-based virtual hosting. An Ingress controller is responsible for fulfilling
 the Ingress, usually with a load balancer, though it may also configure your
 edge router or additional frontends to help handle the traffic. Same rules as
-Nginx or Traefic can be applied to Ingress, meaning that traffic to a domain or
+Nginx or Traefik can be applied to Ingress, meaning that traffic to a domain or
 a specific path can be redirect to the corresponding labelled service.
 
 ![Ingress flow](../assets/img/k8s-ingress.png)
