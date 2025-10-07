@@ -107,6 +107,7 @@ nav:
     - Proxy: utils/proxy.md
     - Regex: utils/regex.md
     - Runbooks: utils/runbooks.md
+    - Scaling: utils/scaling.md
     - Supervisor: utils/supervisor.md
     - Task runner: utils/task-runner.md
     - Transmission: utils/transmission.md
