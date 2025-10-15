@@ -28,6 +28,7 @@ nav:
     - Communication:
       - Adaptive Bitrate Streaming: architecture/communication/abs.md
       - Asynchronous Messaging: architecture/communication/asynchronous-messaging.md
+      - Graphql: architecture/communication/graphql.md
       - gRPC: architecture/communication/grpc.md
       - REST: architecture/communication/rest.md
       - Webhooks: architecture/communication/webhooks.md
