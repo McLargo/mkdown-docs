@@ -111,7 +111,6 @@ nav:
     - Scaling: utils/scaling.md
     - Supervisor: utils/supervisor.md
     - Task runner: utils/task-runner.md
-    - Transmission: utils/transmission.md
     - Testing: utils/testing.md
     - Ubuntu: utils/ubuntu.md
     - Working Environment: utils/working-environment.md
