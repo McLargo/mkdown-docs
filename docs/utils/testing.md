@@ -41,6 +41,17 @@ Some concepts commonly used in unit testing:
   ensuring that data is consistent across all tests.
 - **Parametrized tests**: procedure to run the same test with different inputs.
 
+## Mutation test
+
+Mutation testing is a technique to measure the quality of the tests. Even if you
+have a 100% coverage, it doesn't mean that your tests are good enough. Mutation
+testing changes your code in tiny ways called mutations, and then runs your
+tests to see if they catch the changes. If your tests fail, it means they caught
+the mutation, so mutant is killed. If your tests pass, it means they didn't
+catch the mutation, so mutant survived. The goal is to identify weak spots in
+your code by having a high mutation score. The higher the score, the better your
+tests are at catching bugs.
+
 ## Integration test
 
 Integration tests are used to test the interaction between different parts of
