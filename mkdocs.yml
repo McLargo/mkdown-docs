@@ -80,6 +80,7 @@ nav:
     - Responsibilities: machine-learning/responsibilities.md
   - Programming:
     - Algorithm Complexity: programming/algorithm-complexity.md
+    - Code Refactoring: programming/code-refactoring.md
     - Conventional Commits: programming/conventional-commits.md
     - Development Workflows: programming/development-workflows.md
     - Django: programming/django.md
