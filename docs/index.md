@@ -1,5 +1,11 @@
 # Welcome to McLargo's technical wiki
 
+If I have to pick one single objective on why I do this documentation, that
+would be to write down my **Clean Code philosophy**. Over the years, I have
+learned a lot of things, and I cannot resume everything in one document, but in
+a collection of them. All the best practices and good habits I applied on my
+daily work.
+
 ## What you can find in here
 
 This **MUST** be a dynamic documentation, constantly updated. Any new tool learn
