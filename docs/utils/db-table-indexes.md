@@ -1,9 +1,16 @@
 # Database Table Indexes
 
 An important aspect of [database](../utils/databases.md) design is the creation
-of indexes, specially those ones that are unique.
+of indexes, specially those ones that are unique. Indexes are use to improve the
+speed of data retrieval operations. It affects the performance of write
+operations, such as insert, update, and delete, because the indexes need to be
+updated whenever the data in the table changes.
 
-## UUIDs
+## Types
+
+There are several types of indexes that can be used in a database table:
+
+### UUIDs
 
 UUIDS are a 128-bit number used to uniquely identify objects in a computer.
 
@@ -19,7 +26,7 @@ issues to take a look at:
 On the other hand, UUIDs are unique across different databases and can be
 generated in different machines without the need to coordinate with each other.
 
-## Auto-incrementing IDs
+### Auto-incrementing IDs
 
 Auto-incrementing IDs are a good choice for primary keys in a database. They are
 sequential and can be used to organize indexes quickly and efficiently. They
@@ -28,13 +35,13 @@ don't take up much storage space.
 It is a natural sequence which is easy to predict and identify. Ideally, when
 those ids are not exposed to the user.
 
-## UUIDsv7
+### UUIDsv7
 
 UUIDv7 is a new version of UUIDs that are sequential, solving performance issue
 on insert new records. It offers the best of both worlds: the uniqueness of
 UUIDs and the performance of auto-incrementing IDs.
 
-## ULID
+### ULID
 
 ULID offers a timestamp prefix followed by random characters. It allows
 efficient sorting and is more compact than UUIDs.

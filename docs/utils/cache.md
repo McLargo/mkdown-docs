@@ -2,7 +2,7 @@
 
 Cache storage is used as a layer to store temporary data that needs to be
 accessed quickly. It can be implemented at any layer of an infrastructure, from
-the database, application, gateway, or even the client side.
+the database, application (server side), gateway, or even the client side.
 
 ## How it works
 
@@ -13,6 +13,16 @@ retrieved from the cache, which is much faster than fetching it from the
 original source (database, API, etc.). If the item is not in the cache (**cache
 miss**), it is fetched from the original source, stored in the cache for future
 requests, and then returned to the requester.
+
+Some types of cache include:
+
+- **In-Memory Cache**: Data is stored in the RAM of the server, providing
+  extremely fast access times. Examples include Redis and Memcached.
+- **Distributed Cache**: A cache that is shared across multiple servers or
+  instances, allowing for scalability and high availability. Examples include
+  Amazon ElastiCache and Apache Ignite.
+- **Client-Side Cache**: Data is stored on the client side, such as in browsers
+  or mobile devices, to reduce latency and improve user experience.
 
 ## Advantages
 
@@ -34,17 +44,7 @@ requests, and then returned to the requester.
 - **Complexity**: Implementing and managing a cache adds complexity to the
   system, including the need for cache invalidation strategies.
 
-## Types of Cache
-
-- **In-Memory Cache**: Data is stored in the RAM of the server, providing
-  extremely fast access times. Examples include Redis and Memcached.
-- **Distributed Cache**: A cache that is shared across multiple servers or
-  instances, allowing for scalability and high availability. Examples include
-  Amazon ElastiCache and Apache Ignite.
-- **Client-Side Cache**: Data is stored on the client side, such as in browsers
-  or mobile devices, to reduce latency and improve user experience.
-
-## Invalidation Strategies
+## Invalidation/Eviction Strategies
 
 Cache invalidation is the process of removing or updating data in the cache, to
 make sure data is up-to-date. Common strategies include:
@@ -55,6 +55,10 @@ make sure data is up-to-date. Common strategies include:
   application, specially when original data is modified/removed.
 - **Least Recently Used (LRU)**: The least recently accessed items are removed
   when the cache reaches its capacity.
+- **Least Frequently Used (LFU)**: The least frequently accessed items are
+  removed when the cache reaches its capacity.
+- **First In First Out (FIFO)**: The oldest items are removed first when the
+  cache reaches its capacity. This is risky, as old data may still be relevant.
 
 ## Cache Database Strategies
 

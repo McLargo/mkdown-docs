@@ -102,6 +102,7 @@ nav:
     - Work Remotely: project-management/work-remotely.md
   - Utils:
     - Authentication: utils/authentication.md
+    - Authorization: utils/authorization.md
     - Cache: utils/cache.md
     - Daemon: utils/daemon.md
     - Database table indexes: utils/db-table-indexes.md

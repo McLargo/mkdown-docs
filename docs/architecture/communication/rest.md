@@ -120,6 +120,7 @@ API consumers, include a structured JSON error message, like:
 - don't expose internal database structure in your API.
 - log each request with unique request ID.
 - create common error response.
+- control rate limiting to avoid abuse. Usually implemented in API gateways.
 
 ```text
 GET ALL
