@@ -58,6 +58,15 @@ Integration tests are used to test the interaction between different parts of
 the application. It is a way to ensure that the different parts are working
 together as expected.
 
+Integration can be done to some components you have control (database, cache,
+message broker...) or to external services (like third party APIs). In case of
+external API services, it is a good practice to mock the responses (successful
+and unsuccessful) to avoid dependency on the external service, making tests
+faster and deterministic. You can apply custom rules for more complex responses,
+simulate network errors or even insert latencies. Some tools to create mock
+servers are [Mockoon](https://mockoon.com/) or
+[Beeceptor](]https://beeceptor.com/).
+
 ## End-to-end test
 
 Tests the whole application against a live production-like server. It is a way

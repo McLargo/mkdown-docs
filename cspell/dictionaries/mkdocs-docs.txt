@@ -1,5 +1,6 @@
 abstractmethod
 Asyncio
+Beeceptor
 BentoML
 bitrates
 charsets
@@ -33,6 +34,7 @@ mclargo
 mkdocs
 mkdown
 MLFlow
+Mockoon
 mutmut
 MVVM
 onnx
