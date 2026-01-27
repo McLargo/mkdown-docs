@@ -118,9 +118,9 @@ external to cluster.
   procedure.
 - service to pod: service is a resource that provides layer-4 load balancing for
   a group of pods. Service discovery using the cluster's internal DNS. Types are:
-  - ClusterIP (virtual IP address that load balance request to backend pods,
+    - ClusterIP (virtual IP address that load balance request to backend pods,
   accessible only in the cluster).
-  - NodePort: used for external facing service, exposing a port to access
+    - NodePort: used for external facing service, exposing a port to access
     externally. K8s will open the port in each worker node.
 - external to cluster: service type LoadBalancer, external IP address is
   provisioned by the cloud provider. Creates and manages an external load

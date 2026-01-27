@@ -69,20 +69,20 @@ There are several
 that the server can send back to the client. They are divided into ranges:
 
 - 2XX -> success codes range
-  - 200 OK
-  - 201 Created
-  - 202 Accepted
-  - 204 No Content
+    - 200 OK
+    - 201 Created
+    - 202 Accepted
+    - 204 No Content
 - 3XX -> redirect codes range
 - 4XX -> client error codes range
-  - 400 Bad Request
-  - 401 Unauthorized
-  - 403 Forbidden
-  - 404 Not Found
-  - 405 Method Not Allowed
-  - 409 Conflict
-  - 422 Unprocessable Entity
-  - 429 Too Many Requests
+    - 400 Bad Request
+    - 401 Unauthorized
+    - 403 Forbidden
+    - 404 Not Found
+    - 405 Method Not Allowed
+    - 409 Conflict
+    - 422 Unprocessable Entity
+    - 429 Too Many Requests
 - 5XX -> server error codes range
 
 But, HTTP status codes are not enough to explain what went wrong. To help your

@@ -4,7 +4,9 @@
 Domain-Driven Design (DDD) is a software development approach that focuses on
 generating a deep understanding of the business domain. It is a way of thinking
 and a set of priorities, aimed at accelerating software projects that have to
-deal with complex domains. Key concepts of DDD are:
+deal with complex domains.
+
+## Key concepts
 
 - **Ubiquitous language**: The language is used by all team members, from
   product owners, to developers, QA, and stakeholders. Business concepts, rules,
@@ -18,10 +20,10 @@ deal with complex domains. Key concepts of DDD are:
   software design. For example, in an e-commerce application, the domain model
   may include entities like `Customer`, `Order`, and `Product`, along with their
   relationships and behaviors.
-- **Entities**: Objects that have a distinct identity that even if all attributes
-  change, the identity remains the same. For example, a customer with a unique
-  ID.
-- **Value Objects**: Objects that are defined by their attributes rather than a
+- **Entities**: Objects that have a distinct identity that even if all
+  attributes change, the identity remains the same. For example, a `Customer`
+  with a unique ID.
+- **Value objects**: Objects that are defined by their attributes rather than a
   unique identity. They are immutable and interchangeable when their attributes
   are the same. For example, a `Money` object with attributes like amount and
   currency. Usually, used as invariants.
@@ -46,18 +48,16 @@ deal with complex domains. Key concepts of DDD are:
   that have taken place. For example, an `OrderPlaced` event may be triggered
   when a customer places an order and can be used to notify other parts of the
   system.
-- **Layers**: DDD can be implemented in layers, in a
-  [hexagonal architecture](hexagonal-architecture.md),
-  where the domain model is at the center of the architecture.
-  - **Presentation layer**: The user interface, responsible to interact with the
-    application or user.
-  - **Application layer**: orchestrates the domain objects to perform the
-    required operations or use cases.
-  - **Domain layer**: The core of the application, where the business logic
-    resides.
-  - **Infrastructure layer**: The external systems that the application
-    interacts, like persistence, messaging, etc.
+- **Layers**: DDD can be implemented in layers, in a [hexagonal
+  architecture](hexagonal-architecture.md), where the domain model is at the
+  center of the architecture. The common layers are:
+    - **Presentation layer**: The user interface, responsible to interact with
+      the application or user.
+    - **Application layer**: orchestrates the domain objects to perform the
+      required operations or use cases.
+    - **Domain layer**: The core of the application, where the business logic
+      resides.
+    - **Infrastructure layer**: The external systems that the application
+      interacts with, like persistence, messaging, etc.
 
 ![Domain driven](../../assets/img/domain-driven.png)
-
-## Key Concepts

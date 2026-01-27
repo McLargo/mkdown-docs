@@ -30,9 +30,9 @@ and it is not worthy. Can be generated on demand by IDE
 - Keep Visual consistency
 - Avoid acronyms
 - Schema of a box
-  - Name
-  - [What represent]
-  - Description
+    - Name
+    - [What represent]
+    - Description
 - Lines, usually uni-directional. Shows data flows, with explicit notation on it
 - Show bi-directional lines when intents are different
 - Add words to make the intent explicit

@@ -65,7 +65,7 @@ and unsuccessful) to avoid dependency on the external service, making tests
 faster and deterministic. You can apply custom rules for more complex responses,
 simulate network errors or even insert latencies. Some tools to create mock
 servers are [Mockoon](https://mockoon.com/) or
-[Beeceptor](]https://beeceptor.com/).
+[Beeceptor](https://beeceptor.com/).
 
 ## End-to-end test
 
