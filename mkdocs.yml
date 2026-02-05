@@ -104,7 +104,6 @@ nav:
     - Authentication: utils/authentication.md
     - Authorization: utils/authorization.md
     - Cache: utils/cache.md
-    - Daemon: utils/daemon.md
     - Database table indexes: utils/db-table-indexes.md
     - Databases: utils/databases.md
     - IDE: utils/ide.md
@@ -112,7 +111,6 @@ nav:
     - Regex: utils/regex.md
     - Runbooks: utils/runbooks.md
     - Scaling: utils/scaling.md
-    - Supervisor: utils/supervisor.md
     - Task runner: utils/task-runner.md
     - Testing: utils/testing.md
     - Ubuntu: utils/ubuntu.md

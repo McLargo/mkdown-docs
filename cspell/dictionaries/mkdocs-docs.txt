@@ -62,8 +62,6 @@ sonarqube
 SQLAlchemy
 sqlmodel
 subclassing
-supervisorctl
-supervisord
 torchscript
 TOTP
 Traefik
