@@ -101,9 +101,11 @@ nav:
     - Waterfall Methodology: project-management/waterfall-methodology.md
     - Work Remotely: project-management/work-remotely.md
   - Utils:
+    - AI Code Agents: utils/ai-code-agents.md
     - Authentication: utils/authentication.md
     - Authorization: utils/authorization.md
     - Cache: utils/cache.md
+    - Claude Code: utils/claude-code.md
     - Database table indexes: utils/db-table-indexes.md
     - Databases: utils/databases.md
     - IDE: utils/ide.md
